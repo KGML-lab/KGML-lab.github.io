@@ -12,7 +12,7 @@ This work is supported by a $15M NSF grant to create a Harnessing Data Revolutio
 
 Read more about <a href="https://imageomics.osu.edu/">the Imageomics Institute</a> here.
 
-# Every project has a beautiful feature showcase page.
+<!-- Every project has a beautiful feature showcase page.
 # It's easy to include images in a flexible 3-column grid format.
 # Make your photos 1/3, 2/3, or full width.
 
@@ -24,7 +24,7 @@ Read more about <a href="https://imageomics.osu.edu/">the Imageomics Institute</
     description: a project with a background image
     img: /assets/img/12.jpg
     ---
-
+-->
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
