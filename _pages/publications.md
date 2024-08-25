@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /publications/
-title: Publications
-description: For a full list please check on [Google Scholar](https://scholar.google.com/citations?user=aJdbHAoAAAAJ&hl=en)
+title: publications
+description: publications by categories in reversed chronological order
 nav: true
 nav_order: 2
 ---
