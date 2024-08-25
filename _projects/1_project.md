@@ -13,7 +13,7 @@ Read more about <a href="https://imageomics.osu.edu/">the Imageomics Institute</
 ### Published papers:
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
     <div style="flex: 0 0 auto; margin-right: 20px;">
-        <img src="assets/img/1.jpg" alt="Thumbnail" style="max-width: 150px; height: auto;">
+        <img src="1.jpg" alt="Thumbnail" style="max-width: 150px; height: auto;">
     </div>
     <div style="flex: 1 1 auto;">
         <h2 style="margin: 0;">Paper Title Goes Here</h2>
