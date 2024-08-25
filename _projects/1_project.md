@@ -1,12 +1,14 @@
 ---
 layout: page
-title: Imageomics Discovering Biological Traits from Images
-description: This work is supported by a $15M NSF grant to create a Harnessing Data Revolution (HDR) Institute on Imageomics, a brand-new field in biology where images are used as the source of information about life, powered by novel advances in knowledge-guided ML (KGML). We are developing methods that make use of varying forms of structured biological knowledge (e.g., anatomy ontologies and phylogenies) to guide the training of ML models on images of organisms (e.g., fishes or butterflies) for a variety of downstream tasks such as species classification, image reconstruction, and trait discovery. This is in collaboration with computer scientists and biologists across 11 institutions, led by the Ohio State University (OSU).
+title: "Imageomics: Discovering Biological Traits from Images"
+description: 
 img: assets/img/imageomics.png
 importance: 1
 category: work
 related_publications: true
 ---
+
+This work is supported by a $15M NSF grant to create a Harnessing Data Revolution (HDR) Institute on Imageomics, a brand-new field in biology where images are used as the source of information about life, powered by novel advances in knowledge-guided ML (KGML). We are developing methods that make use of varying forms of structured biological knowledge (e.g., anatomy ontologies and phylogenies) to guide the training of ML models on images of organisms (e.g., fishes or butterflies) for a variety of downstream tasks such as species classification, image reconstruction, and trait discovery. This is in collaboration with computer scientists and biologists across 11 institutions, led by the Ohio State University (OSU).
 
 Read more about <a href="https://imageomics.osu.edu/">the Imageomics Institute</a> here.
 
@@ -42,7 +44,6 @@ Read more about <a href="https://imageomics.osu.edu/">the Imageomics Institute</
 </div>
 
 
-### Ongoing projects:
 
 <!-- Every project has a beautiful feature showcase page.
 # It's easy to include images in a flexible 3-column grid format.
@@ -57,7 +58,7 @@ Read more about <a href="https://imageomics.osu.edu/">the Imageomics Institute</
     img: /assets/img/12.jpg
     ---
 -->
-<div class="row">
+<!-- <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -114,4 +115,4 @@ Here's the code for the last row of images above:
 </div>
 ```
 
-{% endraw %}
+{% endraw %} -->
