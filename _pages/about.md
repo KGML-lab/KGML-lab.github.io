@@ -18,8 +18,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Welcome to our lab! We focus on advancing the field of machine learning (ML) to tackle complex scientific and socially relevant challenges. Led by Prof. Anuj Karpatne, our research emphasizes developing innovative methods in the emerging area of scientific Knowledge-guided Machine Learning (KGML). KGML represents a unique approach that combines both scientific knowledge and data in the design and learning of ML models, moving beyond traditional “data-only” or “science-only” methodologies.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Our primary goal is to enhance the interpretability and generalization capabilities of ML models, particularly for out-of-sample distributions and in scenarios with limited high-quality data. KGML is also known in various research communities by other names, such as ‘theory-guided data science’ (TGDS), ‘physics-guided machine learning’ (PGML), ‘science-guided machine learning’ (SGML), and ‘physics-informed machine learning’ (PIML).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+We have a strong focus on interdisciplinary collaboration and have successfully partnered with experts across numerous scientific fields, including lake modeling, remote sensing, geophysics, fluid dynamics, quantum mechanics, optics, radar physics, mechanobiology, and trait-based biology. If you're interested in exploring collaborative opportunities, please reach out to us!
