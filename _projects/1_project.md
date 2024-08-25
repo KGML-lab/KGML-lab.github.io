@@ -1,18 +1,20 @@
 ---
 layout: page
 title: Imageomics Discovering Biological Traits from Images
-description: with background image
+description: This work is supported by a $15M NSF grant to create a Harnessing Data Revolution (HDR) Institute on Imageomics, a brand-new field in biology where images are used as the source of information about life, powered by novel advances in knowledge-guided ML (KGML). We are developing methods that make use of varying forms of structured biological knowledge (e.g., anatomy ontologies and phylogenies) to guide the training of ML models on images of organisms (e.g., fishes or butterflies) for a variety of downstream tasks such as species classification, image reconstruction, and trait discovery. This is in collaboration with computer scientists and biologists across 11 institutions, led by the Ohio State University (OSU).
 img: assets/img/imageomics.png
 importance: 1
 category: work
 related_publications: true
 ---
 
-This work is supported by a $15M NSF grant to create a Harnessing Data Revolution (HDR) Institute on Imageomics, a brand-new field in biology where images are used as the source of information about life, powered by novel advances in knowledge-guided ML (KGML). We are developing methods that make use of varying forms of structured biological knowledge (e.g., anatomy ontologies and phylogenies) to guide the training of ML models on images of organisms (e.g., fishes or butterflies) for a variety of downstream tasks such as species classification, image reconstruction, and trait discovery. This is in collaboration with computer scientists and biologists across 11 institutions, led by the Ohio State University (OSU).
-
 Read more about <a href="https://imageomics.osu.edu/">the Imageomics Institute</a> here.
 
-Here are the papers published under Imageomics from the KGML Lab
+### Published papers:
+
+
+
+### Ongoing projects:
 
 <!-- Every project has a beautiful feature showcase page.
 # It's easy to include images in a flexible 3-column grid format.
