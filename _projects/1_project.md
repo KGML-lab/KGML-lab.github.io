@@ -12,11 +12,13 @@ This work is supported by a $15M NSF grant to create a Harnessing Data Revolutio
 
 Read more about <a href="https://imageomics.osu.edu/">the Imageomics Institute</a> here.
 
+Here are the papers published under Imageomics from the KGML Lab
+
 {% include bib_search.liquid %}
 
 <div class="publications">
 
-{% bibliography %}
+{% bibliography_imageomics %}
 
 </div>
 
