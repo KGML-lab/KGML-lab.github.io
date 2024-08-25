@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Imageomics: Discovering Biological Traits from Images
+title: Imageomics - Discovering Biological Traits from Images
 description: with background image
 img: assets/img/12.jpg
 importance: 1
