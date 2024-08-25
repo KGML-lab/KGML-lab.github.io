@@ -3,7 +3,7 @@
   hasimage: 1
   width: 50%
   image: imageomics.png
-  description: "This work is supported by a [$15M NSF grant](https://news.vt.edu/articles/2022/03/three-virginia-tech-scientists-partner-on-multi-university-grant.html) to create a Harnessing Data Revolution (HDR) Institute on [Imageomics](https://imageomics.osu.edu/), a brand-new field in biology where images are used as the source of information about life, powered by novel advances in knowledge-guided ML (KGML). We are developing methods that make use of varying forms of structured biological knowledge (e.g., anatomy ontologies and phylogenies) to guide the training of ML models on images of organisms (e.g., fishes or butterflies) for a variety of downstream tasks such as species classification, image reconstruction, and trait discovery. This is in collaboration with computer scientists and biologists across 11 institutions, led by OSU."
+  description: "This work is supported by a $15M NSF grant to create a Harnessing Data Revolution (HDR) Institute on Imageomics, a brand-new field in biology where images are used as the source of information about life, powered by novel advances in knowledge-guided ML (KGML). We are developing methods that make use of varying forms of structured biological knowledge (e.g., anatomy ontologies and phylogenies) to guide the training of ML models on images of organisms (e.g., fishes or butterflies) for a variety of downstream tasks such as species classification, image reconstruction, and trait discovery. This is in collaboration with computer scientists and biologists across 11 institutions, led by OSU."
   authors:  M. Maruf, Mridul Khurana, Harishbabu Manogaran
   year: 2019
   tag: 10001
@@ -17,7 +17,7 @@
   hasimage: 1
   width: 70%
   image: mechanobio.png
-  description:  "This is a collaborative project with researchers from Mechanical Engineering at VT to develop physics-guided ML methods for tracking, characterizing, and predicting the movement of cells and bacteria in fibrous environments using traction-force microscopy images collected in the field of mechanobiology. The physics knowledge that we are integrating in our ML methods includes phenomenological models of cell and bacteria migration and knowledge of the mechanical forces governing interactions between cells and fiber backgrounds. This work is supported by a [$1M NSF Medium grant](https://vtx.vt.edu/articles/2021/10/sanghani-center-researcher-receives--1-million-nsf-grant-to-pred.html) where I am the lead investigator."
+  description:  "This is a collaborative project with researchers from Mechanical Engineering at VT to develop physics-guided ML methods for tracking, characterizing, and predicting the movement of cells and bacteria in fibrous environments using traction-force microscopy images collected in the field of mechanobiology. The physics knowledge that we are integrating in our ML methods includes phenomenological models of cell and bacteria migration and knowledge of the mechanical forces governing interactions between cells and fiber backgrounds. This work is supported by a $1M NSF Medium grant where I am the lead investigator."
   authors:  Medha Sawhney
   year: 2023
   tag: 10003
