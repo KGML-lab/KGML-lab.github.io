@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: For an full list please check
+description: For a full list please check on <a href="https://scholar.google.com/citations?user=aJdbHAoAAAAJ&hl=en">Google Scholar</a>
 nav: true
 nav_order: 2
 ---
@@ -14,9 +14,6 @@ nav_order: 2
 {% include bib_search.liquid %}
 
 <div class="publications">
-  <p>
-    For an full list please check on <a href="https://scholar.google.com/citations?user=aJdbHAoAAAAJ&hl=en">Google Scholar</a>
-  </p>
 
 {% bibliography %}
 
