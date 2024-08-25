@@ -4,11 +4,17 @@ title: About
 permalink: /
 # subtitle: 
 
-# profile
-#  align: right
-#  image: 
-#  image_circular: false # crops the image to make it circular
-
+profile: 
+  align: right
+  image: AK_VT_pic2.png
+  image_circular: false
+  more_info: >
+    <b>Anuj Karpatne</b>
+    <p>Associate Professor</p>
+    <p>Dept. of Computer Science, Virginia Tech</p>
+    <p>Email: karpatne-AT-vt.edu</p>
+    <p>Office: D&DS 438</p>
+    
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
