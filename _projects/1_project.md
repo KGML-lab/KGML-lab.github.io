@@ -11,7 +11,19 @@ related_publications: true
 Read more about <a href="https://imageomics.osu.edu/">the Imageomics Institute</a> here.
 
 ### Published papers:
-
+<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+    <div style="flex: 0 0 auto; margin-right: 20px;">
+        <img src="assets/img/1.jpg" alt="Thumbnail" style="max-width: 150px; height: auto;">
+    </div>
+    <div style="flex: 1 1 auto;">
+        <h2 style="margin: 0;">Paper Title Goes Here</h2>
+        <p style="margin: 0; font-size: 14px; color: #666;">Author Name 1, Author Name 2</p>
+        <p style="margin: 0; font-size: 12px; color: #007bff;">
+            <a href="https://sites.google.com/view/fgvc11" style="text-decoration: none;">PDF</a> |
+            <a href="https://sites.google.com/view/fgvc11" style="text-decoration: none;">GitHub</a>
+        </p>
+    </div>
+</div>
 
 
 ### Ongoing projects:
