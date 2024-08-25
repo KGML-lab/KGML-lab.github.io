@@ -20,13 +20,13 @@ profiles:
           <a href="mailto:youremail@example.com" style="text-decoration: none; color: #D44638; margin: 0 10px;">
             <i class="fas fa-envelope" style="font-size: 24px;"></i>
           </a>
-          <a href="https://yourwebsite.com" style="text-decoration: none; color: #0a7cdb; margin: 0 10px;">
+          <a href="https://people.cs.vt.edu/karpatne/" style="text-decoration: none; color: #0a7cdb; margin: 0 10px;">
             <i class="fas fa-globe" style="font-size: 24px;"></i>
           </a>
-          <a href="https://twitter.com/yourprofile" style="text-decoration: none; color: #1DA1F2; margin: 0 10px;">
+          <a href="https://people.cs.vt.edu/karpatne/" style="text-decoration: none; color: #1DA1F2; margin: 0 10px;">
             <i class="fab fa-twitter-square" style="font-size: 24px;"></i>
           </a>
-          <a href="https://linkedin.com/in/yourprofile" style="text-decoration: none; color: #0077b5; margin: 0 10px;">
+          <a href="https://people.cs.vt.edu/karpatne/" style="text-decoration: none; color: #0077b5; margin: 0 10px;">
             <i class="fab fa-linkedin" style="font-size: 24px;"></i>
           </a>
         </p>
