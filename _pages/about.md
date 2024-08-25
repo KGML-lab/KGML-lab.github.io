@@ -2,12 +2,12 @@
 layout: about
 title: about
 permalink: /
-subtitle: 
+# subtitle: 
 
-profile
-  align: right
-  image: 
-  image_circular: false # crops the image to make it circular
+# profile
+#  align: right
+#  image: 
+#  image_circular: false # crops the image to make it circular
 
 News: true # includes a list of news items
 Selected_papers: true # includes a list of papers marked as "selected={true}"
