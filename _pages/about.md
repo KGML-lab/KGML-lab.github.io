@@ -9,9 +9,9 @@ permalink: /
 #  image: 
 #  image_circular: false # crops the image to make it circular
 
-News: true # includes a list of news items
-Selected_papers: true # includes a list of papers marked as "selected={true}"
-Social: true # includes social icons at the bottom of the page
+news: true # includes a list of news items
+selected_papers: true # includes a list of papers marked as "selected={true}"
+social: true # includes social icons at the bottom of the page
 ---
 ![Image](/assets/img/lab_logo.png)
 
