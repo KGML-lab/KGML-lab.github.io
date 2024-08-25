@@ -2,7 +2,7 @@
   key: "imageomics"
   hasimage: 1
   width: 50%
-  image: mechanobio.png
+  image: imageomics.png
   description: "This work is supported by a [$15M NSF grant](https://news.vt.edu/articles/2022/03/three-virginia-tech-scientists-partner-on-multi-university-grant.html) to create a Harnessing Data Revolution (HDR) Institute on [Imageomics](https://imageomics.osu.edu/), a brand-new field in biology where images are used as the source of information about life, powered by novel advances in knowledge-guided ML (KGML). We are developing methods that make use of varying forms of structured biological knowledge (e.g., anatomy ontologies and phylogenies) to guide the training of ML models on images of organisms (e.g., fishes or butterflies) for a variety of downstream tasks such as species classification, image reconstruction, and trait discovery. This is in collaboration with computer scientists and biologists across 11 institutions, led by OSU."
   authors:  M. Maruf, Mridul Khurana, Harishbabu Manogaran
   year: 2019
