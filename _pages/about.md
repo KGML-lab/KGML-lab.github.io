@@ -13,7 +13,13 @@ news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
+**VISION**
+
+Our vision is to advance machine learning through Knowledge-guided Machine Learning (KGML), integrating scientific knowledge with data to enhance model interpretability and generalization. We tackle complex scientific and societal challenges with an interdisciplinary approach across diverse domains.
+
 ![Image](/assets/img/lab_logo.png)
+
+**RESEARCH**
 
 Welcome to our lab! We focus on advancing the field of machine learning (ML) to tackle complex scientific and socially relevant challenges. Led by Prof. Anuj Karpatne, our research emphasizes developing innovative methods in the emerging area of scientific Knowledge-guided Machine Learning (KGML). KGML represents a unique approach that combines both scientific knowledge and data in the design and learning of ML models, moving beyond traditional “data-only” or “science-only” methodologies.
 
