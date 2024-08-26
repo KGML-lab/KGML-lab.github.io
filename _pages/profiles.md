@@ -6,13 +6,12 @@ title: Team
 nav: true
 nav_order: 7
 
+section_title: Principal Investigator
 
 profiles:
-  # if you want to include more than one profile, just replicate the following block
-  # and create one content file for each profile inside _pages/
   - align: left
     image: AK_VT_pic2.png
-    content: Anuj_Karpatne.md
+    content: 
     image_circular: false # crops the image to make it circular
     more_info: >
       <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%;">
