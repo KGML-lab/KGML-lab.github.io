@@ -14,7 +14,7 @@ This work is supported by a $15M NSF grant to create a <a href="https://imageomi
 ### Papers:
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
     <div style="flex: 0 0 auto; margin-right: 20px;">
-        <img src="/assets/img/1.jpg" alt="Thumbnail" style="max-width: 150px; height: auto;">
+        <img src="/assets/img/publication_preview/phylo_diffusion_architecture.jpg" alt="Thumbnail" style="max-width: 150px; height: auto;">
     </div>
     <div style="flex: 1 1 auto;">
         <h2 style="margin: 0; font-size: 16px;">Hierarchical Conditioning of Diffusion Models Using Tree-of-Life for Studying Species Evolution</h2>
@@ -29,7 +29,7 @@ This work is supported by a $15M NSF grant to create a <a href="https://imageomi
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
     <div style="flex: 0 0 auto; margin-right: 20px;">
-        <img src="/assets/img/2.jpg" alt="Thumbnail" style="max-width: 150px; height: auto;">
+        <img src="/assets/img/publication_preview/fishvista.jpg" alt="Thumbnail" style="max-width: 150px; height: auto;">
     </div>
     <div style="flex: 1 1 auto;">
         <h2 style="margin: 0; font-size: 16px;">Fish-Vista: A Multi-Purpose Dataset for Understanding & Identification of Traits from Images</h2>
