@@ -23,3 +23,36 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+.shadow-box {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: var(--background-light);  /* Default to light mode background */
+  color: var(--text-light);                   /* Default to light mode text */
+}
+
+.shadow-box:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3); /* Darker shadow on hover */
+}
+
+.profile img {
+  width: 150px !important;  /* Force the width for all profile pictures */
+  height: auto !important;  /* Maintain aspect ratio */
+  display: block;
+  margin: 0 auto;    /* Center the image */
+  max-width: none;   /* Disable max-width to ensure fixed width */
+}
+
+.profile-name {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  color: white;
+  text-align: center;
+}
+
+.more-info {
+  text-align: center; /* Center the links */
+  margin-top: 10px;
+}
