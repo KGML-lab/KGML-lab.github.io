@@ -1,3 +1,4 @@
+<div style="background-image: url('/assets/img/lab_logo.png'); background-size: 100% 100%; background-position: center; background-repeat: no-repeat; padding: 20px;">
 ---
 layout: about
 title: About
@@ -19,8 +20,6 @@ news: true # includes a list of news items
 # selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-<div style="background-image: url('/assets/img/lab_logo.png'); background-size: 100% 100%; background-position: center; background-repeat: no-repeat; padding: 20px;">
-
 
 <p align="center">
   <img src="/assets/img/lab_logo.png" alt="Lab Logo" style="width: 100%;">
