@@ -21,7 +21,7 @@ This work is supported by a $15M NSF grant to create a <a href="https://imageomi
         <p style="margin: 0; font-size: 14px; color: #666;">Mridul Khurana, Arka Daw, M Maruf, ... , Anuj Karpatnte</p>
         <p style="margin: 0; font-size: 12px; color: #666;">ECCV 2024</p>
         <p style="margin: 0; font-size: 12px; color: #007bff;">
-            <a href="https://arxiv.org/abs/2408.001601" style="text-decoration: none;">Paper</a> |
+            <a href="https://arxiv.org/abs/2408.00160" style="text-decoration: none;">Paper</a> |
             <a href="https://imageomics.github.io/phylo-diffusion/" style="text-decoration: none;">Website</a>
         </p>
     </div>
