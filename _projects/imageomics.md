@@ -18,7 +18,7 @@ This work is supported by a $15M NSF grant to create a <a href="https://imageomi
     </div>
     <div style="flex: 1 1 auto;">
         <h2 style="margin: 0; font-size: 16px;">Hierarchical Conditioning of Diffusion Models Using Tree-of-Life for Studying Species Evolution</h2>
-        <p style="margin: 0; font-size: 14px; color: #666;">Mridul Khurana, Arka Daw, M Maruf, ... , Anuj Karpatnte</p>
+        <p style="margin: 0; font-size: 14px; color: #666;">Mridul Khurana, Arka Daw, M Maruf, ... , Anuj Karpatne</p>
         <p style="margin: 0; font-size: 12px; color: #666;">ECCV 2024</p>
         <p style="margin: 0; font-size: 12px; color: #007bff;">
             <a href="https://arxiv.org/abs/2408.00160" style="text-decoration: none;">Paper</a> |
