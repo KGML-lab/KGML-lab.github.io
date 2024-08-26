@@ -33,7 +33,7 @@ profiles:
         </p>
       </div>
 
-  # Graduate Students Section
+  <!-- # Graduate Students Section
   - section_title: Graduate Students
     align: left
     image: student1_pic.png
@@ -97,10 +97,10 @@ profiles:
             <i class="fab fa-linkedin" style="font-size: 24px;"></i>
           </a>
         </p>
-      </div>
+      </div> -->
 
 ---
 
-# Add more sections as needed
+<!-- Add more sections as needed -->
 
 ---
