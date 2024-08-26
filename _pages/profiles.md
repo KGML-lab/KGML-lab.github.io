@@ -9,6 +9,7 @@ nav_order: 7
 section_title: Principal Investigator
 
 profiles:
+  - section_title: Principal Investigator
   - align: left
     image: AK_VT_pic2.png
     content: Anuj_Karpatne.md
