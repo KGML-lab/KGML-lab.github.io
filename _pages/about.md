@@ -21,7 +21,7 @@ social: true # includes social icons at the bottom of the page
 ---
 
 <p align="center">
-  <img src="/assets/img/lab_logo.png" alt="Lab Logo">
+  <img src="/assets/img/lab_logo.png" alt="Lab Logo" style="width: 50%;">
 </p>
 
 **Welcome to our lab!**
