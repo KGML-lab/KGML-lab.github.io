@@ -6,8 +6,6 @@ title: Team
 nav: true
 nav_order: 7
 
-section_title: Principal Investigator
-
 profiles:
   - section_title: Principal Investigator
   - align: left
