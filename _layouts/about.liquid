@@ -1,7 +1,30 @@
 ---
 layout: default
 ---
-<div style="background-image: url('/assets/img/background.png'); background-size: 100% 100%; background-position: center; background-repeat: no-repeat; padding: 20px;">
+
+.transparent-bg {
+    position: relative;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.transparent-bg::before {
+    content: '';
+    background-image: url('/assets/img/background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.3; /* Adjust opacity */
+    z-index: -1;
+}
+
+
+<div class="transparent-bg">
 <div class="post">
   <header class="post-header">
     <h1 class="post-title">
