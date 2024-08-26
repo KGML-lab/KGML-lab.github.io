@@ -13,7 +13,7 @@ The goal of this project is to develop hybrid-ecology-ML models of lake water qu
 ### Papers:
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
     <div style="flex: 0 0 auto; margin-right: 20px;">
-        <img src="/assets/img/publication_preview/mcl.jpg" alt="Thumbnail" style="max-width: 150px; height: auto;">
+        <img src="/assets/img/mcl.png" alt="Thumbnail" style="max-width: 150px; height: auto;">
     </div>
     <div style="flex: 1 1 auto;">
         <h2 style="margin: 0; font-size: 16px;">Modular Compositional Learning Improves 1D Hydrodynamic Lake Model Performance by Merging Process-Based Modeling With Deep Learning</h2>
@@ -28,7 +28,7 @@ The goal of this project is to develop hybrid-ecology-ML models of lake water qu
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
     <div style="flex: 0 0 auto; margin-right: 20px;">
-        <img src="/assets/img/publication_preview/pgnn.png" alt="Thumbnail" style="max-width: 150px; height: auto;">
+        <img src="/assets/img/pgnn.png" alt="Thumbnail" style="max-width: 150px; height: auto;">
     </div>
     <div style="flex: 1 1 auto;">
         <h2 style="margin: 0; font-size: 16px;">Physics-Guided Neural Networks (PGNN): An Application in Lake Temperature Modeling</h2>
@@ -43,7 +43,7 @@ The goal of this project is to develop hybrid-ecology-ML models of lake water qu
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
     <div style="flex: 0 0 auto; margin-right: 20px;">
-        <img src="/assets/img/publication_preview/pga_lstm.png" alt="Thumbnail" style="max-width: 150px; height: auto;">
+        <img src="/assets/img/pga_lstm.png" alt="Thumbnail" style="max-width: 150px; height: auto;">
     </div>
     <div style="flex: 1 1 auto;">
         <h2 style="margin: 0; font-size: 16px;">Physics-Guided Architecture (PGA) of Neural Networks for Quantifying Uncertainty in Lake Temperature Modeling</h2>
