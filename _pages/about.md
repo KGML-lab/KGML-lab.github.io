@@ -1,4 +1,3 @@
-<div style="background-image: url('/assets/img/lab_logo.png'); background-size: 100% 100%; background-position: center; background-repeat: no-repeat; padding: 20px;">
 ---
 layout: about
 title: About
@@ -33,4 +32,4 @@ Our primary goal is to enhance the interpretability and generalization capabilit
 
 We have a strong focus on interdisciplinary collaboration and have successfully partnered with experts across numerous scientific fields, including lake modeling, remote sensing, geophysics, fluid dynamics, quantum mechanics, optics, radar physics, mechanobiology, and trait-based biology. If you're interested in exploring collaborative opportunities, please reach out to us!
 
-</div>
+<!-- </div> -->
