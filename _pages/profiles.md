@@ -8,9 +8,8 @@ nav_order: 7
 
 profiles:
   - title: Principal Investigator
-  - align: left
+  - align: centre
     image: AK_VT_pic2.png
-    content: Anuj_Karpatne.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%;">
