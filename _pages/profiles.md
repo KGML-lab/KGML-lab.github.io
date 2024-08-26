@@ -10,10 +10,9 @@ nav_order: 7
 profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
-  - section_title: Principal Investigator
   - align: left
     image: AK_VT_pic2.png
-    content: Anuj_Karpatne.md
+    <!-- content: Anuj_Karpatne.md -->
     image_circular: false # crops the image to make it circular
     more_info: >
       <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%;">
