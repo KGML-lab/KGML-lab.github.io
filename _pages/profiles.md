@@ -33,7 +33,3 @@ profiles:
       </div>
 
 ---
-
-<!-- Add more sections as needed -->
-
----
