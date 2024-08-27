@@ -38,7 +38,7 @@ $max-content-width: {{ site.max_width }};
 }
 
 .profile img {
-  width: 150px !important;  /* Force the width for all profile pictures */
+  width: 200px !important;  /* Force the width for all profile pictures */
   height: auto !important;  /* Maintain aspect ratio */
   display: block;
   margin: 0 auto;    /* Center the image */
