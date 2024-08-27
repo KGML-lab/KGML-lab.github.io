@@ -62,6 +62,9 @@ layout: page
                   {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
                 {% endif %}
                 <div class="profile-name">{{ profile.name }}</div> <!-- Name at the bottom -->
+                {% if profile.degree %}
+                  <div class="degree-name">{{ profile.degree }}</div> <!-- Degree name -->
+                {% endif %}
                 {% if profile.more_info %}
                   <div class="more-info">{{ profile.more_info }}</div>
                 {% endif %}
@@ -69,10 +72,37 @@ layout: page
             </div>
           {% endif %}
         {% endfor %}
+      </div>
 
-
-      
-
+      <!-- Alumni Header -->
+      <h2>Alumni</h2>
+      <div class="row">
+        {% for profile in page.profiles %}
+          {% if profile.type == 'alumni' %}
+            <div class="col-md-4">
+              <div class="shadow-box text-center">
+                
+                {% if profile.image %}
+                  {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
+                  {% if profile.image_circular %}
+                    {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+                  {% else %}
+                    {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+                  {% endif %}
+                  {% capture sizes %}(min-width: {{site.max_width}})  {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 20vw, 50vw"{% endcapture %}
+                  {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
+                {% endif %}
+                <div class="profile-name">{{ profile.name }}</div> <!-- Name at the bottom -->
+                {% if profile.degree %}
+                  <div class="degree-name">{{ profile.degree }}</div> <!-- Degree name -->
+                {% endif %}
+                {% if profile.more_info %}
+                  <div class="more-info">{{ profile.more_info }}</div>
+                {% endif %}
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
       </div>
 
     {% endif %}

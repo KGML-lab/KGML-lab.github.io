@@ -266,7 +266,7 @@ profiles:
       </div>
 
 
-    <!-- - align: left
+    - align: left
       type: alumni
       name: Arka Daw
       degree: PhD Student
@@ -391,7 +391,7 @@ profiles:
           </p>
       </div>
 
-   -->
+  
 
   
 ---
