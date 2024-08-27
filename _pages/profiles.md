@@ -39,7 +39,7 @@ profiles:
   - align: left
     type: student
     name: Medha Sawhney
-    image: MedhaSawhney.jpg
+    image: MedhaSawhney.png
     degree: PhD Student
     content: about/about_sepideh.md
     image_circular: false # crops the image to make it circular
