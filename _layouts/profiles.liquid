@@ -62,6 +62,7 @@ layout: page
                   {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
                 {% endif %}
                 <div class="profile-name">{{ profile.name }}</div> <!-- Name at the bottom -->
+                <div class="profile-degree">{{ profile.degree }}</div>
                 {% if profile.more_info %}
                   <div class="more-info">{{ profile.more_info }}</div>
                 {% endif %}
@@ -72,7 +73,7 @@ layout: page
       </div>
 
       <!-- Alumni Header -->
-      <h2>Alumni</h2>
+      <h2>Alumnis</h2>
       <div class="row">
         {% for profile in page.profiles %}
           {% if profile.type == 'alumni' %}
@@ -90,6 +91,8 @@ layout: page
                   {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
                 {% endif %}
                 <div class="profile-name">{{ profile.name }}</div> <!-- Name at the bottom -->
+                <div class="profile-degree">{{ profile.degree }}</div>
+                <div class="profile-now">{{ profile.now }}</div>
                 {% if profile.more_info %}
                   <div class="more-info">{{ profile.more_info }}</div>
                 {% endif %}

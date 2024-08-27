@@ -14,6 +14,7 @@ profiles:
     type: student
     name: M Maruf
     image: maruf_upd.jpg
+    degree: PhD Student
     content: about/about_sepideh.md
     image_circular: false # crops the image to make it circular
     more_info: >
@@ -39,6 +40,7 @@ profiles:
     type: student
     name: Medha Sawhney
     image: MedhaSawhney.jpg
+    degree: PhD Student
     content: about/about_sepideh.md
     image_circular: false # crops the image to make it circular
     more_info: >
@@ -62,6 +64,7 @@ profiles:
   - align: left
     type: student
     name: Abhilash Neog
+    degree: Masters Student
     image: Abhilash-Neog_upd.jpg
     content: about/about_sepideh.md
     image_circular: false # crops the image to make it circular
@@ -86,6 +89,7 @@ profiles:
   - align: left
     type: student
     name: Mridul Khurana
+    degree: Masters Student
     image: Mridul-Khurana_upd.jpg
     content: about/about_sepideh.md
     image_circular: false # crops the image to make it circular
@@ -110,6 +114,7 @@ profiles:
   - align: left
     type: student
     name: Kazi Sajeed Mehrab
+    degree: PhD Student
     image: Kazi-Sajeed-Mehrab_upd.jpg
     content: about/about_sepideh.md
     image_circular: false # crops the image to make it circular
@@ -134,6 +139,7 @@ profiles:
   - align: left
     type: student
     name: Harishbabu Manogaran
+    degree: Masters Student
     image: Harish-Babu-Manogaran.jpg
     content: about/about_sepideh.md
     image_circular: false # crops the image to make it circular
@@ -158,6 +164,7 @@ profiles:
   - align: left
     type: student
     name: Amartya Dutta
+    degree: Masters Student
     image: Amartya-Dutta_upd.jpg
     content: about/about_sepideh.md
     image_circular: false # crops the image to make it circular
@@ -182,6 +189,7 @@ profiles:
   - align: left
     type: student
     name: Sepideh Fatemi
+    degree: PhD Student
     image: SepidehFatemi_upd.jpg
     content: about/about_sepideh.md
     image_circular: false # crops the image to make it circular
@@ -206,6 +214,7 @@ profiles:
   - align: left
     type: student
     name: Aanish Pradhan
+    degree: Masters Student
     image: sample_img.jpg
     content: about/about_sepideh.md
     image_circular: false # crops the image to make it circular
@@ -230,6 +239,8 @@ profiles:
   - align: left
     type: alumni
     name: Arka Daw
+    degree: PhD Student, 2023
+    now: Distinguished Staff Fellow, ORNL
     image: Arka_pic-upd.jpg
     content: about/about_sepideh.md
     image_circular: false # crops the image to make it circular
@@ -254,6 +265,8 @@ profiles:
   - align: left
     type: alumni
     name: Jie Bu
+    degree: PhD Student, 2023
+    now: Machine Learning Engineer, Apple
     image: Jie_upd.jpg
     content: about/about_sepideh.md
     image_circular: false # crops the image to make it circular
@@ -278,6 +291,8 @@ profiles:
   - align: left
     type: alumni
     name: Mohannad Elhamod
+    degree: PhD Student, 2023
+    now: Clinical Assistant Professor, Boston University
     image: ElhamodMohannad.jpg
     content: about/about_sepideh.md
     image_circular: false # crops the image to make it circular
