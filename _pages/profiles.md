@@ -14,7 +14,6 @@ profiles:
     type: student
     name: M Maruf
     image: maruf_upd.jpg
-    content: about/about_sepideh.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%;">
@@ -39,7 +38,6 @@ profiles:
     type: student
     name: Medha Sawhney
     image: MedhaSawhney.jpg
-    content: about/about_sepideh.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%;">
@@ -63,7 +61,6 @@ profiles:
     type: student
     name: Abhilash Neog
     image: Abhilash-Neog_upd.jpg
-    content: about/about_sepideh.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%;">
@@ -83,7 +80,7 @@ profiles:
         </p>
       </div>
 
-  - align: left
+  <!-- - align: left
     type: student
     name: Mridul Khurana
     image: Mridul-Khurana_upd.jpg
@@ -225,7 +222,7 @@ profiles:
             <i class="fab fa-twitter-square" style="font-size: 24px;"></i>
           </a>
         </p>
-      </div>
+      </div> -->
 
   - align: left
     type: faculty
