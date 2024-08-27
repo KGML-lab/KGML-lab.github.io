@@ -165,7 +165,7 @@ profiles:
     type: student
     name: Amartya Dutta
     degree: Masters Student
-    image: Amartya-Dutta_upd.jpg
+    image: Amartya-Dutta_upd.png
     content: about/about_sepideh.md
     image_circular: false # crops the image to make it circular
     more_info: >
@@ -293,7 +293,7 @@ profiles:
     name: Mohannad Elhamod
     degree: PhD Student, 2023
     now: Clinical Assistant Professor, Boston University
-    image: ElhamodMohannad.jpg
+    image: Moe.png
     content: about/about_sepideh.md
     image_circular: false # crops the image to make it circular
     more_info: >
