@@ -19,17 +19,17 @@ profiles:
     more_info: >
       <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%;">
         <p style="margin: 0;">
-          <a href="mailto:youremail@example.com" style="text-decoration: none; color: #D44638; margin: 0 10px;">
+          <a href="mailto:marufm@vt.edu" style="text-decoration: none; color: #D44638; margin: 0 10px;">
             <i class="fas fa-envelope" style="font-size: 24px;"></i>
           </a>
-          <a href="https://yourwebsite.com" style="text-decoration: none; color: #0a7cdb; margin: 0 10px;">
+          <a href="https://sammarfy.github.io/" style="text-decoration: none; color: #0a7cdb; margin: 0 10px;">
             <i class="fas fa-globe" style="font-size: 24px;"></i>
           </a>
-                    <a href="https://linkedin.com/in/yourprofile" style="text-decoration: none; color: #0077b5; margin: 0 10px;">
+            <a href="https://www.linkedin.com/in/samu14792" style="text-decoration: none; color: #0077b5; margin: 0 10px;">
             <i class="fab fa-linkedin" style="font-size: 24px;"></i>
           </a>
 
-          <a href="https://twitter.com/yourprofile" style="text-decoration: none; color: #1DA1F2; margin: 0 10px;">
+          <a href="https://twitter.com/sammarfy" style="text-decoration: none; color: #1DA1F2; margin: 0 10px;">
             <i class="fab fa-twitter-square" style="font-size: 24px;"></i>
           </a>
         </p>
@@ -44,16 +44,16 @@ profiles:
     more_info: >
       <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%;">
         <p style="margin: 0;">
-          <a href="mailto:youremail@example.com" style="text-decoration: none; color: #D44638; margin: 0 10px;">
+          <a href="mailto:sawhney.medha@gmail.com" style="text-decoration: none; color: #D44638; margin: 0 10px;">
             <i class="fas fa-envelope" style="font-size: 24px;"></i>
           </a>
-          <a href="https://yourwebsite.com" style="text-decoration: none; color: #0a7cdb; margin: 0 10px;">
+          <a href="https://sawhney-medha.github.io/" style="text-decoration: none; color: #0a7cdb; margin: 0 10px;">
             <i class="fas fa-globe" style="font-size: 24px;"></i>
           </a>
-                    <a href="https://linkedin.com/in/yourprofile" style="text-decoration: none; color: #0077b5; margin: 0 10px;">
+            <a href="https://www.linkedin.com/in/medha-sawhney" style="text-decoration: none; color: #0077b5; margin: 0 10px;">
             <i class="fab fa-linkedin" style="font-size: 24px;"></i>
           </a>
-          <a href="https://twitter.com/yourprofile" style="text-decoration: none; color: #1DA1F2; margin: 0 10px;">
+          <a href="https://twitter.com/medha_sawhney" style="text-decoration: none; color: #1DA1F2; margin: 0 10px;">
             <i class="fab fa-twitter-square" style="font-size: 24px;"></i>
           </a>
         </p>
@@ -68,16 +68,16 @@ profiles:
     more_info: >
       <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%;">
         <p style="margin: 0;">
-          <a href="mailto:youremail@example.com" style="text-decoration: none; color: #D44638; margin: 0 10px;">
+          <a href="mailto:abhilash22@vt.edu" style="text-decoration: none; color: #D44638; margin: 0 10px;">
             <i class="fas fa-envelope" style="font-size: 24px;"></i>
           </a>
           <a href="https://yourwebsite.com" style="text-decoration: none; color: #0a7cdb; margin: 0 10px;">
             <i class="fas fa-globe" style="font-size: 24px;"></i>
           </a>
-                    <a href="https://linkedin.com/in/yourprofile" style="text-decoration: none; color: #0077b5; margin: 0 10px;">
+                    <a href="https://www.linkedin.com/in/abhilash-neog-2021/" style="text-decoration: none; color: #0077b5; margin: 0 10px;">
             <i class="fab fa-linkedin" style="font-size: 24px;"></i>
           </a>
-          <a href="https://twitter.com/yourprofile" style="text-decoration: none; color: #1DA1F2; margin: 0 10px;">
+          <a href="https://twitter.com/neog_abhilashh" style="text-decoration: none; color: #1DA1F2; margin: 0 10px;">
             <i class="fab fa-twitter-square" style="font-size: 24px;"></i>
           </a>
         </p>
@@ -92,13 +92,13 @@ profiles:
     more_info: >
       <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%;">
         <p style="margin: 0;">
-          <a href="mailto:youremail@example.com" style="text-decoration: none; color: #D44638; margin: 0 10px;">
+          <a href="mailto:mridul@vt.edu" style="text-decoration: none; color: #D44638; margin: 0 10px;">
             <i class="fas fa-envelope" style="font-size: 24px;"></i>
           </a>
-          <a href="https://yourwebsite.com" style="text-decoration: none; color: #0a7cdb; margin: 0 10px;">
+          <a href="https://mridulk97.github.io/" style="text-decoration: none; color: #0a7cdb; margin: 0 10px;">
             <i class="fas fa-globe" style="font-size: 24px;"></i>
           </a>
-                    <a href="https://linkedin.com/in/yourprofile" style="text-decoration: none; color: #0077b5; margin: 0 10px;">
+                    <a href="https://www.linkedin.com/in/mridulk97" style="text-decoration: none; color: #0077b5; margin: 0 10px;">
             <i class="fab fa-linkedin" style="font-size: 24px;"></i>
           </a>
           <a href="https://twitter.com/yourprofile" style="text-decoration: none; color: #1DA1F2; margin: 0 10px;">
@@ -116,13 +116,13 @@ profiles:
     more_info: >
       <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%;">
         <p style="margin: 0;">
-          <a href="mailto:youremail@example.com" style="text-decoration: none; color: #D44638; margin: 0 10px;">
+          <a href="mailto:ksmehrab@vt.edu" style="text-decoration: none; color: #D44638; margin: 0 10px;">
             <i class="fas fa-envelope" style="font-size: 24px;"></i>
           </a>
-          <a href="https://yourwebsite.com" style="text-decoration: none; color: #0a7cdb; margin: 0 10px;">
+          <a href="https://sajeedmehrab.github.io/" style="text-decoration: none; color: #0a7cdb; margin: 0 10px;">
             <i class="fas fa-globe" style="font-size: 24px;"></i>
           </a>
-                    <a href="https://linkedin.com/in/yourprofile" style="text-decoration: none; color: #0077b5; margin: 0 10px;">
+                    <a href="https://www.linkedin.com/in/kazi-sajeed-mehrab-934108168/" style="text-decoration: none; color: #0077b5; margin: 0 10px;">
             <i class="fab fa-linkedin" style="font-size: 24px;"></i>
           </a>
           <a href="https://twitter.com/yourprofile" style="text-decoration: none; color: #1DA1F2; margin: 0 10px;">
@@ -140,13 +140,13 @@ profiles:
     more_info: >
       <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%;">
         <p style="margin: 0;">
-          <a href="mailto:youremail@example.com" style="text-decoration: none; color: #D44638; margin: 0 10px;">
+          <a href="mailto:harishbabu@vt.edu" style="text-decoration: none; color: #D44638; margin: 0 10px;">
             <i class="fas fa-envelope" style="font-size: 24px;"></i>
           </a>
           <a href="https://yourwebsite.com" style="text-decoration: none; color: #0a7cdb; margin: 0 10px;">
             <i class="fas fa-globe" style="font-size: 24px;"></i>
           </a>
-                    <a href="https://linkedin.com/in/yourprofile" style="text-decoration: none; color: #0077b5; margin: 0 10px;">
+                    <a href="https://www.linkedin.com/in/harish-babu-m/" style="text-decoration: none; color: #0077b5; margin: 0 10px;">
             <i class="fab fa-linkedin" style="font-size: 24px;"></i>
           </a>
           <a href="https://twitter.com/yourprofile" style="text-decoration: none; color: #1DA1F2; margin: 0 10px;">
@@ -164,16 +164,16 @@ profiles:
     more_info: >
       <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%;">
         <p style="margin: 0;">
-          <a href="mailto:youremail@example.com" style="text-decoration: none; color: #D44638; margin: 0 10px;">
+          <a href="mailto:amartya@vt.edu" style="text-decoration: none; color: #D44638; margin: 0 10px;">
             <i class="fas fa-envelope" style="font-size: 24px;"></i>
           </a>
           <a href="https://yourwebsite.com" style="text-decoration: none; color: #0a7cdb; margin: 0 10px;">
             <i class="fas fa-globe" style="font-size: 24px;"></i>
           </a>
-                    <a href="https://linkedin.com/in/yourprofile" style="text-decoration: none; color: #0077b5; margin: 0 10px;">
+                    <a href="https://www.linkedin.com/in/amartyad/" style="text-decoration: none; color: #0077b5; margin: 0 10px;">
             <i class="fab fa-linkedin" style="font-size: 24px;"></i>
           </a>
-          <a href="https://twitter.com/yourprofile" style="text-decoration: none; color: #1DA1F2; margin: 0 10px;">
+          <a href="https://x.com/amadutx" style="text-decoration: none; color: #1DA1F2; margin: 0 10px;">
             <i class="fab fa-twitter-square" style="font-size: 24px;"></i>
           </a>
         </p>
@@ -188,13 +188,13 @@ profiles:
     more_info: >
       <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%;">
         <p style="margin: 0;">
-          <a href="mailto:youremail@example.com" style="text-decoration: none; color: #D44638; margin: 0 10px;">
+          <a href="mailto:sepidehfatemi@vt.edu" style="text-decoration: none; color: #D44638; margin: 0 10px;">
             <i class="fas fa-envelope" style="font-size: 24px;"></i>
           </a>
           <a href="https://yourwebsite.com" style="text-decoration: none; color: #0a7cdb; margin: 0 10px;">
             <i class="fas fa-globe" style="font-size: 24px;"></i>
           </a>
-                    <a href="https://linkedin.com/in/yourprofile" style="text-decoration: none; color: #0077b5; margin: 0 10px;">
+                    <a href="https://www.linkedin.com/in/sepideh-fatemi-046840169/" style="text-decoration: none; color: #0077b5; margin: 0 10px;">
             <i class="fab fa-linkedin" style="font-size: 24px;"></i>
           </a>
           <a href="https://twitter.com/yourprofile" style="text-decoration: none; color: #1DA1F2; margin: 0 10px;">
@@ -202,7 +202,7 @@ profiles:
           </a>
         </p>
       </div>
-      
+
   - align: left
     type: student
     name: Aanish Pradhan
@@ -212,13 +212,13 @@ profiles:
     more_info: >
       <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%;">
         <p style="margin: 0;">
-          <a href="mailto:youremail@example.com" style="text-decoration: none; color: #D44638; margin: 0 10px;">
+          <a href="mailto:aanishp01@vt.edu" style="text-decoration: none; color: #D44638; margin: 0 10px;">
             <i class="fas fa-envelope" style="font-size: 24px;"></i>
           </a>
-          <a href="https://yourwebsite.com" style="text-decoration: none; color: #0a7cdb; margin: 0 10px;">
+          <a href="https://aanish-pradhan.github.io" style="text-decoration: none; color: #0a7cdb; margin: 0 10px;">
             <i class="fas fa-globe" style="font-size: 24px;"></i>
           </a>
-                    <a href="https://linkedin.com/in/yourprofile" style="text-decoration: none; color: #0077b5; margin: 0 10px;">
+                    <a href="https://www.linkedin.com/in/aanishpradhan" style="text-decoration: none; color: #0077b5; margin: 0 10px;">
             <i class="fab fa-linkedin" style="font-size: 24px;"></i>
           </a>
           <a href="https://twitter.com/yourprofile" style="text-decoration: none; color: #1DA1F2; margin: 0 10px;">
