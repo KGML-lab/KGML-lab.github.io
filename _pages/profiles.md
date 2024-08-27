@@ -228,6 +228,78 @@ profiles:
       </div>
 
   - align: left
+    type: alumni
+    name: Arka Daw
+    image: Arka_pic-upd.jpg
+    content: about/about_sepideh.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%;">
+        <p style="margin: 0;">
+          <a href="mailto:dawa@ornl.gov" style="text-decoration: none; color: #D44638; margin: 0 10px;">
+            <i class="fas fa-envelope" style="font-size: 24px;"></i>
+          </a>
+          <a href="https://people.cs.vt.edu/darka/" style="text-decoration: none; color: #0a7cdb; margin: 0 10px;">
+            <i class="fas fa-globe" style="font-size: 24px;"></i>
+          </a>
+                    <a href="https://www.linkedin.com/in/arka-daw/" style="text-decoration: none; color: #0077b5; margin: 0 10px;">
+            <i class="fab fa-linkedin" style="font-size: 24px;"></i>
+          </a>
+          <a href="https://twitter.com/arkadaw_" style="text-decoration: none; color: #1DA1F2; margin: 0 10px;">
+            <i class="fab fa-twitter-square" style="font-size: 24px;"></i>
+          </a>
+        </p>
+      </div>
+
+  - align: left
+    type: alumni
+    name: Jie Bu
+    image: Jie_upd.jpg
+    content: about/about_sepideh.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%;">
+        <p style="margin: 0;">
+          <a href="mailto:jayroxis@vt.edu" style="text-decoration: none; color: #D44638; margin: 0 10px;">
+            <i class="fas fa-envelope" style="font-size: 24px;"></i>
+          </a>
+          <a href="https://bit.ly/3h3GvFs" style="text-decoration: none; color: #0a7cdb; margin: 0 10px;">
+            <i class="fas fa-globe" style="font-size: 24px;"></i>
+          </a>
+            <a href="https://www.linkedin.com/in/jie-bu-420692194" style="text-decoration: none; color: #0077b5; margin: 0 10px;">
+            <i class="fab fa-linkedin" style="font-size: 24px;"></i>
+          </a>
+          <a href="https://twitter.com/yourprofile" style="text-decoration: none; color: #1DA1F2; margin: 0 10px;">
+            <i class="fab fa-twitter-square" style="font-size: 24px;"></i>
+          </a>
+        </p>
+      </div>
+
+  - align: left
+    type: alumni
+    name: Mohannad Elhamod
+    image: ElhamodMohannad.jpg
+    content: about/about_sepideh.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%;">
+        <p style="margin: 0;">
+          <a href="mailto:elhamod@vt.edu" style="text-decoration: none; color: #D44638; margin: 0 10px;">
+            <i class="fas fa-envelope" style="font-size: 24px;"></i>
+          </a>
+          <a href="https://wordpress.cs.vt.edu/elhamod/" style="text-decoration: none; color: #0a7cdb; margin: 0 10px;">
+            <i class="fas fa-globe" style="font-size: 24px;"></i>
+          </a>
+                    <a href="https://www.linkedin.com/in/mohannadelhamod" style="text-decoration: none; color: #0077b5; margin: 0 10px;">
+            <i class="fab fa-linkedin" style="font-size: 24px;"></i>
+          </a>
+          <a href="https://twitter.com/ElhamodMohannad" style="text-decoration: none; color: #1DA1F2; margin: 0 10px;">
+            <i class="fab fa-twitter-square" style="font-size: 24px;"></i>
+          </a>
+        </p>
+      </div>
+
+  - align: left
     type: faculty
     name: Anuj Karpatne
     image: AK_VT_pic2.png
