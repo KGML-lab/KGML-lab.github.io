@@ -38,7 +38,7 @@ profiles:
   - align: left
     type: student
     name: M. Maruf
-    degree: PhD Student
+    <!-- degree: PhD Student -->
     image: prof_pic.jpg
     content: about/about_sepideh.md
     image_circular: false # crops the image to make it circular
@@ -63,7 +63,7 @@ profiles:
     - align: left
       type: student
       name: Medha Sawhney
-      degree: PhD Student
+      <!-- degree: PhD Student -->
       image: prof_pic.jpg
       content: about/about_sepideh.md
       image_circular: false # crops the image to make it circular
@@ -88,7 +88,7 @@ profiles:
     - align: left
       type: student
       name: Abhilash Neog
-      degree: Masters Student
+      <!-- degree: Masters Student -->
       image: prof_pic.jpg
       content: about/about_sepideh.md
       image_circular: false # crops the image to make it circular
@@ -114,7 +114,7 @@ profiles:
     - align: left
       type: student
       name: Mridul Khurana
-      degree: Masters Student
+      <!-- degree: Masters Student -->
       image: prof_pic.jpg
       content: about/about_sepideh.md
       image_circular: false # crops the image to make it circular
@@ -140,7 +140,7 @@ profiles:
     - align: left
       type: student
       name: Kazi Sajeed Mehrab
-      degree: PhD Student
+      <!-- degree: PhD Student -->
       image: prof_pic.jpg
       content: about/about_sepideh.md
       image_circular: false # crops the image to make it circular
@@ -166,7 +166,7 @@ profiles:
     - align: left
       type: student
       name: Harish Babu Manogaran
-      degree: Masters Student
+      <!-- degree: Masters Student -->
       image: prof_pic.jpg
       content: about/about_sepideh.md
       image_circular: false # crops the image to make it circular
@@ -192,7 +192,7 @@ profiles:
     - align: left
       type: student
       name: Amartya Dutta
-      degree: Masters Student
+      <!-- degree: Masters Student -->
       image: prof_pic.jpg
       content: about/about_sepideh.md
       image_circular: false # crops the image to make it circular
@@ -218,7 +218,7 @@ profiles:
   - align: left
     type: student
     name: Sepideh Fatemi
-    degree: PhD Student
+    <!-- degree: PhD Student -->
     image: prof_pic.jpg
     content: about/about_sepideh.md
     image_circular: false # crops the image to make it circular
@@ -243,7 +243,7 @@ profiles:
     - align: left
       type: student
       name: Aanish Pradhan
-      degree: Masters Student
+      <!-- degree: Masters Student -->
       image: prof_pic.jpg
       content: about/about_sepideh.md
       image_circular: false # crops the image to make it circular
@@ -266,7 +266,7 @@ profiles:
       </div>
 
 
-    - align: left
+    <!-- - align: left
       type: alumni
       name: Arka Daw
       degree: PhD Student
@@ -389,7 +389,7 @@ profiles:
               <i class="fab fa-twitter-square" style="font-size: 24px;"></i>
             </a>
           </p>
-      </div>
+      </div> -->
 
   
 
