@@ -34,6 +34,7 @@ profiles:
           </a>
         </p>
       </div>
+      
   - align: left
     type: student
     name: Sepideh Fatemi
@@ -52,7 +53,6 @@ profiles:
                     <a href="https://linkedin.com/in/yourprofile" style="text-decoration: none; color: #0077b5; margin: 0 10px;">
             <i class="fab fa-linkedin" style="font-size: 24px;"></i>
           </a>
-
           <a href="https://twitter.com/yourprofile" style="text-decoration: none; color: #1DA1F2; margin: 0 10px;">
             <i class="fab fa-twitter-square" style="font-size: 24px;"></i>
           </a>
@@ -77,7 +77,6 @@ profiles:
                     <a href="https://linkedin.com/in/yourprofile" style="text-decoration: none; color: #0077b5; margin: 0 10px;">
             <i class="fab fa-linkedin" style="font-size: 24px;"></i>
           </a>
-
           <a href="https://twitter.com/yourprofile" style="text-decoration: none; color: #1DA1F2; margin: 0 10px;">
             <i class="fab fa-twitter-square" style="font-size: 24px;"></i>
           </a>
@@ -101,13 +100,12 @@ profiles:
                     <a href="https://linkedin.com/in/yourprofile" style="text-decoration: none; color: #0077b5; margin: 0 10px;">
             <i class="fab fa-linkedin" style="font-size: 24px;"></i>
           </a>
-
           <a href="https://twitter.com/yourprofile" style="text-decoration: none; color: #1DA1F2; margin: 0 10px;">
             <i class="fab fa-twitter-square" style="font-size: 24px;"></i>
           </a>
         </p>
       </div>
-      
+
   - align: left
     type: faculty
     name: Anuj Karpatne
@@ -129,8 +127,6 @@ profiles:
           <a href="https://www.linkedin.com/in/anuj-karpatne-a816281b" style="text-decoration: none; color: #0077b5; margin: 0 10px;">
             <i class="fab fa-linkedin" style="font-size: 24px;"></i>
           </a>
-        </p>
-      </div>
         </p>
       </div>
 ---
