@@ -83,7 +83,7 @@ profiles:
         </p>
       </div>
 
-  - align: left
+  <!-- - align: left
     type: student
     name: Mridul Khurana
     image: Mridul-Khurana_upd.jpg
@@ -225,7 +225,7 @@ profiles:
             <i class="fab fa-twitter-square" style="font-size: 24px;"></i>
           </a>
         </p>
-      </div>
+      </div> -->
 
   - align: left
     type: faculty
