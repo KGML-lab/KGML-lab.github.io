@@ -89,7 +89,7 @@ profiles:
   - align: left
     type: student
     name: Mridul Khurana
-    degree: Masters Student
+    degree: PhD Student
     image: Mridul-Khurana_upd.jpg
     content: about/about_sepideh.md
     image_circular: false # crops the image to make it circular
@@ -105,7 +105,7 @@ profiles:
                     <a href="https://www.linkedin.com/in/mridulk97" style="text-decoration: none; color: #0077b5; margin: 0 10px;">
             <i class="fab fa-linkedin" style="font-size: 24px;"></i>
           </a>
-          <a href="https://twitter.com/yourprofile" style="text-decoration: none; color: #1DA1F2; margin: 0 10px;">
+          <a href="https://x.com/mridulk97" style="text-decoration: none; color: #1DA1F2; margin: 0 10px;">
             <i class="fab fa-twitter-square" style="font-size: 24px;"></i>
           </a>
         </p>
