@@ -74,7 +74,7 @@ profiles:
           <a href="mailto:abhilash22@vt.edu" style="text-decoration: none; color: #D44638; margin: 0 10px;">
             <i class="fas fa-envelope" style="font-size: 24px;"></i>
           </a>
-          <a href="https://abhilash-neog.github.io/" style="text-decoration: none; color: #0a7cdb; margin: 0 10px;">
+          <a href="https://yourwebsite.com" style="text-decoration: none; color: #0a7cdb; margin: 0 10px;">
             <i class="fas fa-globe" style="font-size: 24px;"></i>
           </a>
                     <a href="https://www.linkedin.com/in/abhilash-neog-2021/" style="text-decoration: none; color: #0077b5; margin: 0 10px;">
@@ -313,6 +313,33 @@ profiles:
           </a>
         </p>
       </div>
+
+  - align: left
+    type: alumni
+    name: Naveen Gupta
+    degree: Masters Student, 2023
+    now: ML Engineer @ SLB
+    image: NaveenGupta_pic_upd.jpg
+    content: about/about_sepideh.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%;">
+        <p style="margin: 0;">
+          <a href="mailto:naveengupta@vt.edu" style="text-decoration: none; color: #D44638; margin: 0 10px;">
+            <i class="fas fa-envelope" style="font-size: 24px;"></i>
+          </a>
+        <!--   <a href="https://wordpress.cs.vt.edu/elhamod/" style="text-decoration: none; color: #0a7cdb; margin: 0 10px;">
+            <i class="fas fa-globe" style="font-size: 24px;"></i>
+          </a> -->
+                    <a href="https://www.linkedin.com/in/naveengupta1729" style="text-decoration: none; color: #0077b5; margin: 0 10px;">
+            <i class="fab fa-linkedin" style="font-size: 24px;"></i>
+          </a>
+         <!--  <a href="https://twitter.com/ElhamodMohannad" style="text-decoration: none; color: #1DA1F2; margin: 0 10px;">
+            <i class="fab fa-twitter-square" style="font-size: 24px;"></i>
+          </a> -->
+        </p>
+      </div>
+    
 
   - align: left
     type: faculty
