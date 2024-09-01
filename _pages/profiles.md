@@ -344,7 +344,7 @@ profiles:
   - align: left
     type: faculty
     name: Anuj Karpatne
-    image: AK_VT_pic2.png
+    image: AK_pic2.png
     content: Anuj_Karpatne.md
     image_circular: false # crops the image to make it circular
     more_info: >
