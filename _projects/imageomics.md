@@ -4,7 +4,6 @@ title: "Imageomics: Discovering Biological Traits from Images"
 description: 
 img: assets/img/imageomics.png
 importance: 1
-category: work
 related_publications: false
 fund: "$15M NSF HDR Institute Grant​"
 ---
