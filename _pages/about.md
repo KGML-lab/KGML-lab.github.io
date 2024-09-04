@@ -21,9 +21,7 @@ social: true # includes social icons at the bottom of the page
 ---
 
 
-Occasionally you’ll want to use the full browser width.
-For this, use `.l-screen`.
-You can also inset the element a little from the edge of the browser by using the inset variant.
+
 
 <div class="fake-img l-screen">
   <p>.l-screen</p>
