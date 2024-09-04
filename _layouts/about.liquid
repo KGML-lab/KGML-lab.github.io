@@ -38,8 +38,10 @@ layout: default
   }
 
   .full-width-logo {
-    width: 100vw;  /* 100% of the viewport width */
-    height: auto;  /* Adjust height automatically */
+    display: block;  /* Ensure the image is treated as a block-level element */
+    margin: 0 auto;  /* Center the image horizontally */
+    width: 100vw;    /* Set the image width to 100% of the viewport */
+    height: auto;    /* Maintain the aspect ratio */
   }
 </style>
 
