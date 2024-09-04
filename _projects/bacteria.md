@@ -6,6 +6,7 @@ img: assets/img/memtrack.png
 importance: 1
 related_publications: false
 fund: "$1M NSF Medium Grant​"
+category: work
 ---
 This is a collaborative project with researchers from Mechanical Engineering at VT to develop physics-guided ML methods for tracking, characterizing, and predicting the movement of cells and bacteria in fibrous environments using traction-force microscopy images collected in the field of mechanobiology. The physics knowledge that we are integrating in our ML methods includes phenomenological models of cell and bacteria migration and knowledge of the mechanical forces governing interactions between cells and fiber backgrounds. This work is supported by a $1M NSF Medium grant where I am the lead investigator.
 
