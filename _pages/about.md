@@ -20,22 +20,11 @@ news: true # includes a list of news items
 social: true # includes social icons at the bottom of the page
 ---
 
-
-
-
-<div class="fake-img l-screen">
-  <p>.l-screen</p>
-</div>
-<div class="fake-img l-screen-inset">
-  <p>.l-screen-inset</p>
-</div>
-
-
-<div class="lablogo l-screen-inset">
-    <p align="center">
-      <img src="/assets/img/lab_logo.png" alt="Lab Logo" style="width: 100%;">
-    </p>
-</div>
+<!---
+<p align="center">
+    <img src="/assets/img/lab_logo.png" alt="Lab Logo" style="width: 100%;">
+</p>
+-->
 
 
 Welcome to the **Knowledge-guided Machine Learning (KGML)** lab led by [Prof. Anuj Karpatne](https://people.cs.vt.edu/karpatne/) at [Virginia Tech](https://www.vt.edu/) in the [Department of Computer Science](https://cs.vt.edu/) and the [Sanghani Center for AI and Data Analytics](https://sanghani.cs.vt.edu/).
