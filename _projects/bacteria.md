@@ -4,7 +4,6 @@ title: "Predicting Mechanics of Cells"
 description: 
 img: assets/img/memtrack.png
 importance: 1
-category: work
 related_publications: false
 fund: "$1M NSF Medium Grant​"
 ---
