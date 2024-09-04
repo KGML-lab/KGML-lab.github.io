@@ -20,6 +20,19 @@ news: true # includes a list of news items
 social: true # includes social icons at the bottom of the page
 ---
 
+
+Occasionally you’ll want to use the full browser width.
+For this, use `.l-screen`.
+You can also inset the element a little from the edge of the browser by using the inset variant.
+
+<div class="fake-img l-screen">
+  <p>.l-screen</p>
+</div>
+<div class="fake-img l-screen-inset">
+  <p>.l-screen-inset</p>
+</div>
+
+
 <div class="lablogo l-screen-inset">
     <p align="center">
       <img src="/assets/img/lab_logo.png" alt="Lab Logo" style="width: 100%;">
