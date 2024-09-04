@@ -4,7 +4,6 @@ title: "Solving PDEs,​ Inverse Problems in Geophysics​ and Multi-phase Flow�
 description: 
 img: assets/img/pinn.png
 importance: 1
-category: work
 related_publications: false
 fund: "$596K NSF CAREER Grant​"
 ---
