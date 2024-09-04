@@ -13,8 +13,6 @@
         %}
       {% endif %}
       <div class="card-body">
-        <h2 class="card-title">{{ project.title }}</h2>
-        <p class="card-text" style="font-size: 10px;">{{ project.description }}</p>
         <div style="margin-top: 10px;"> <!-- Container for spacing -->
           <div style="
               display: inline-block; /* To fit content size */
@@ -28,6 +26,8 @@
               {{ project.fund }}
           </div>
         </div>
+        <h2 class="card-title">{{ project.title }}</h2>
+        <p class="card-text" style="font-size: 10px;">{{ project.description }}</p>
         <div class="row ml-1 mr-1 p-0">
           {% if project.github %}
             <div class="github-icon">
