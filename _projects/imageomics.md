@@ -6,6 +6,7 @@ img: assets/img/imageomics.png
 importance: 1
 related_publications: false
 fund: "$15M NSF HDR Institute Grant​"
+category: work
 ---
 
 This work is supported by a $15M NSF grant to create a <a href="https://imageomics.osu.edu/">Harnessing Data Revolution (HDR) Institute on Imageomics</a> , a brand-new field in biology where images are used as the source of information about life, powered by novel advances in knowledge-guided ML (KGML). We are developing methods that make use of varying forms of structured biological knowledge (e.g., anatomy ontologies and phylogenies) to guide the training of ML models on images of organisms (e.g., fishes or butterflies) for a variety of downstream tasks such as species classification, image reconstruction, and trait discovery. This is in collaboration with computer scientists and biologists across 11 institutions, led by the Ohio State University (OSU).
