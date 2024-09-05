@@ -14,19 +14,41 @@
     {% endif %}
     {% include head.liquid %}
  
-  <div class="header-background">
-    <div class="img" style="
-      background-image: url('/assets/img/lab_header_1.jpg');
-      background-repeat: no-repeat;
-      background-size: contain;
-      background-position: top center;
-      padding-bottom: 56.25%; /* 16:9 aspect ratio */
-      height: 0
-      margin-bottom: 0;
-      margin-top: -0.0em;
-      width: 100%;
-    "></div>
+<div class="header-background" style="position: relative; display:">
+  <div class="img" style="
+    background-image: url('/assets/img/lab_header_2.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top center;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    width: 100%;
+    position: relative;
+  ">
+
+  
+
+  <div class="text" style="
+      position: absolute;
+      bottom: 0;  /* Aligns the text to the bottom of the image */
+      left: 0;  /* Aligns the text to the left of the image */
+      color: white;
+      font-weight: bold;
+      font-size: 1.5vw;  /* Font size will adjust based on viewport width */
+      font-family: 'Arial', sans-serif;
+      width: 45%;
+      max-width: 400px;
+      line-height: 2vw;
+      padding-bottom: 10vw;
+      padding-left: 1vw;
+    ">
+    Bridging the Gap between Scientific Knowledge and Machine Learning for Accelerating Science
   </div>
+
+</div>
+</div>
 
 <style>
   @media (max-width: 768px) { /* Tablet and smaller screens */
