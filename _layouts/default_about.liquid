@@ -27,6 +27,25 @@
     "></div>
   </div>
 
+<style>
+  @media (max-width: 768px) { /* Tablet and smaller screens */
+    .header-background .img {
+      height: 10em; /* Reduce height for smaller screens */
+    }
+  }
+
+  @media (max-width: 480px) { /* Phones */
+    .header-background .img {
+      height: 8em; /* Further reduce height for phones */
+      background-size: cover; /* Ensure the image covers the container */
+    }
+    .header-background .text {
+      margin-right: 1em; /* Adjust text position if needed */
+    }
+  }
+</style>
+
+
   </head>
 
   
