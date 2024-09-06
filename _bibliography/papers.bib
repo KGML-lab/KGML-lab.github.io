@@ -1,5 +1,24 @@
 ---
+
 ---
+---
+---
+Buttons:
+- `abbr`: Adds an abbreviation to the left of the entry. You can add links to these by creating a venue.yaml-file in the _data folder and adding entries that match.
+- `abstract`: Adds an "Abs" button that expands a hidden text field when clicked to show the abstract text
+- `arxiv`: Adds a link to the Arxiv website (Note: only add the arxiv identifier here - the link is generated automatically)
+- `bibtex_show`: Adds a "Bib" button that expands a hidden text field with the full bibliography entry
+- `html`: Inserts an "HTML" button redirecting to the user-specified link
+- `pdf`: Adds a "PDF" button redirecting to a specified file (if a full link is not specified, the file will be assumed to be placed in the /assets/pdf/ directory)
+- `supp`: Adds a "Supp" button to a specified file (if a full link is not specified, the file will be assumed to be placed in the /assets/pdf/ directory)
+- `blog`: Adds a "Blog" button redirecting to the specified link
+- `code`: Adds a "Code" button redirecting to the specified link
+- `poster`: Adds a "Poster" button redirecting to a specified file (if a full link is not specified, the file will be assumed to be placed in the /assets/pdf/ directory)
+- `video`: Adds a "Video" button redirecting to a specified file (if a full link is not specified, the file will be assumed to be placed in the /assets/video/ directory)
+- `slides`: Adds a "Slides" button redirecting to a specified file (if a full link is not specified, the file will be assumed to be placed in the /assets/pdf/ directory)
+- `website`: Adds a "Website" button redirecting to the specified link
+- `altmetric`: Adds an [Altmetric](https://www.altmetric.com/) badge (Note: if DOI is provided just use `true`, otherwise only add the altmetric identifier here - the link is generated automatically)
+- `dimensions`: Adds a [Dimensions](https://www.dimensions.ai/) badge (Note: if DOI or PMID is provided just use `true`, otherwise only add the Dimensions' identifier here - the link is generated automatically)
 
 
 @article{khurana2024hierarchical,
@@ -7,6 +26,7 @@ author = {Khurana, Mridul and Daw, Arka and Maruf, M. and Uyeda, Josef C. and Da
 title = {Hierarchical Conditioning of Diffusion Models Using Tree-of-Life for Studying Species Evolution},
 year = {2024},
 journal = {ECCV},
+abbr = {EECV},
 booktitle = {Proceedings of ECCV},
 keywords = {Evolution, Diffusion Models, Hierarchical Conditioning, Generative AI, Computer Vision},
 preview = {phylo_diffusion_architecture.jpg},
@@ -28,6 +48,7 @@ abs = {A central problem in biology is to understand how organisms evolve and ad
   title={Motion Enhanced Multi-Level Tracker (MEMTrack): A Deep Learning-Based Approach to Microrobot Tracking in Dense and Low-Contrast Environments},
   author={Sawhney, Medha and Karmarkar, Bhas and Leaman, Eric J and Daw, Arka and Karpatne, Anuj and Behkam, Bahareh},
   journal={Advanced Intelligent Systems},
+  abbr = {AISY},
   volume={6},
   number={4},
   pages={2300590},
@@ -39,6 +60,7 @@ abs = {A central problem in biology is to understand how organisms evolve and ad
   title={Neuro-Visualizer: An Auto-encoder-based Loss Landscape Visualization Method},
   author={Elhamod, Mohannad and Karpatne, Anuj},
   journal={ICML},
+  abbr = {ICML},
   arxiv = {2309.14601},
   year={2024}
 }
