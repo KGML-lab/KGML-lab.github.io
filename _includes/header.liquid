@@ -17,6 +17,7 @@
               {{- site.last_name -}}
             {% endif %}
           {% else %}
+           <img src="{{ site.baseurl }}/assets/img/logo.jpg" alt="Icon" style="height: 40px; margin-right: 2px;"> 
            <span class="font-weight-bold">
             {{- site.title -}}
           {% endif %}
@@ -24,7 +25,14 @@
       {% elsif site.enable_navbar_social %}
         <!-- Social Icons -->
         <div class="navbar-brand social">{% include social.liquid %}</div>
+      {% elsif site.enable_navbar_title %}
+      <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
+      <img src="{{ site.baseurl }}/assets/img/logo.jpg" alt="Icon" style="height: 40px; margin-right: 2px;">
+       <span class="font-weight-bold">
+        {{- site.title -}}
       {% endif %}
+       </a>
+
       <!-- Navbar Toggle -->
       <button
         class="navbar-toggler collapsed ml-auto"
