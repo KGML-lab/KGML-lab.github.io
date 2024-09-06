@@ -64,7 +64,7 @@ profiles:
   - align: left
     type: student
     name: Abhilash Neog
-    degree: Masters Student
+    degree: PhD Student
     image: Abhilash-Neog_upd.jpg
     content: about/about_sepideh.md
     image_circular: false # crops the image to make it circular
@@ -74,7 +74,7 @@ profiles:
           <a href="mailto:abhilash22@vt.edu" style="text-decoration: none; color: #D44638; margin: 0 10px;">
             <i class="fas fa-envelope" style="font-size: 24px;"></i>
           </a>
-          <a href="https://yourwebsite.com" style="text-decoration: none; color: #0a7cdb; margin: 0 10px;">
+          <a href="https://abhilash-neog.github.io/" style="text-decoration: none; color: #0a7cdb; margin: 0 10px;">
             <i class="fas fa-globe" style="font-size: 24px;"></i>
           </a>
                     <a href="https://www.linkedin.com/in/abhilash-neog-2021/" style="text-decoration: none; color: #0077b5; margin: 0 10px;">
