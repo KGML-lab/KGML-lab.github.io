@@ -71,7 +71,7 @@
 
   </head>
 
-  
+  {% include scripts/scroll_to_bottom.liquid %}
 
   <!-- Body -->
   <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
@@ -130,6 +130,7 @@
     {% include scripts/imageLayouts.liquid %}
     {% include scripts/jekyll_tabs.liquid %}
     {% include scripts/back_to_top.liquid %}
+    {% include scripts/scroll_to_bottom.liquid %}
     {% include scripts/search.liquid %}
   </body>
 </html>

@@ -1,0 +1,6 @@
+{% if site.scroll_to_bottom %}
+  <script src="{{ '/assets/js/vanilla-scroll-to-bottom.min.js' | relative_url | bust_file_cache }}"></script>
+  <script>
+    addScrollToBottom();
+  </script>
+{% endif %}
