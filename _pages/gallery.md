@@ -6,22 +6,20 @@ title: Gallery
 nav: true
 nav_order: 8
 ---
-
 <div class="carousel" style="text-align: center;">
-  <div style="position: relative; display: inline-block;">
+  <div style="position: relative; display: inline-block; width: 80%;">
     <div class="carousel-slide">
-      <img class="carousel-image" src="/assets/img/lab_photo.jpg" alt="Lab Photo" style="width:600px;">
+      <img class="carousel-image" src="/assets/img/lab_photo.jpg" alt="Lab Photo">
       <div class="caption">KGML Team</div>
     </div>
     
     <div class="carousel-slide" style="display:none;">
-      <img class="carousel-image" src="/assets/img/jie_grad_celebration.jpg" alt="Graduation Celebration" style="width:600px;">
+      <img class="carousel-image" src="/assets/img/jie_grad_celebration.jpg" alt="Graduation Celebration">
       <div class="caption">Jie’s PhD Defense Celebration</div>
     </div>
     
     <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
     <button class="next" onclick="changeSlide(1)">&#10095;</button>
-
   </div>
 </div>
 
@@ -52,7 +50,7 @@ nav_order: 8
   }
 
   .carousel-image {
-    width: 600px;
+    width: 100%; /* 100% of the container */
     height: auto;
     display: block;
     margin: 0 auto;
@@ -72,11 +70,11 @@ nav_order: 8
   }
 
   .prev {
-    left: -50px;
+    left: 10px; /* Adjusted to position the arrow inside the 90% container */
   }
 
   .next {
-    right: -50px;
+    right: 10px; /* Adjusted to position the arrow inside the 90% container */
   }
 
   .caption {
