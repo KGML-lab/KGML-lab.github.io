@@ -24,7 +24,6 @@ nav_order: 8
 <script>
   let slideIndex = 0;
   let slides = [];
-  let autoSlideInterval;
 
   // Function to load the JSON data
   async function loadGallery() {
@@ -53,7 +52,8 @@ nav_order: 8
       img.classList.add('carousel-image');
       img.src = image.src;
       img.alt = image.caption;
-      img.style.width = "100%";
+      img.style.height = "400px"; // Fixed height for all images
+      img.style.objectFit = "contain"; // Preserve aspect ratio, contain within the box
 
       const caption = document.createElement('div');
       caption.classList.add('caption');
@@ -70,15 +70,12 @@ nav_order: 8
       thumbnail.classList.add('thumbnail');
       thumbnail.onclick = () => {
         showSlide(index); // Go to specific slide on click
-        clearInterval(autoSlideInterval); // Stop auto sliding when clicked
-        startAutoSlide(); // Restart auto sliding
       };
       thumbnailContainer.appendChild(thumbnail);
     });
 
     // Initialize first thumbnail as active
     updateActiveThumbnail(slideIndex);
-    startAutoSlide(); // Start auto-sliding after creating the carousel
   }
 
   // Function to change slides (next/previous)
@@ -104,14 +101,6 @@ nav_order: 8
     thumbnails[index].classList.add('active'); // Add active class to current thumbnail
   }
 
-  // Function to start auto-sliding every 3 seconds
-  function startAutoSlide() {
-    autoSlideInterval = setInterval(() => {
-      slideIndex = (slideIndex + 1) % slides.length; // Automatically move to the next slide
-      showSlide(slideIndex);
-    }, 3000); // 3000ms = 3 seconds
-  }
-
   // Load the gallery when the page loads
   loadGallery();
 </script>
@@ -123,8 +112,9 @@ nav_order: 8
   }
 
   .carousel-image {
-    width: 100%; /* 100% of the container */
-    height: auto;
+    width: 100%; /* 100% of the container's width */
+    height: 400px; /* Fixed height */
+    object-fit: contain; /* Preserve aspect ratio, fit within the box */
     display: block;
     margin: 0 auto;
   }
@@ -150,12 +140,22 @@ nav_order: 8
     right: 10px;
   }
 
-  .caption {
+  /* Default styles (Light Mode) */
+  [data-theme="light"] .caption {
     text-align: center;
-    color: #333;
+    color: #333; /* Dark text for light mode */
     font-size: 16px;
     margin-top: 10px;
     font-style: italic;
+  }
+
+  /* Dark Mode (when data-theme is set to "dark") */
+  [data-theme="dark"] .caption {
+    text-align: center;
+    color: #fff; /* Light text for dark mode */
+    font-size: 16px;
+    margin-top: 10px;
+    font-style: italic; 
   }
 
   .carousel-slide {
@@ -164,8 +164,9 @@ nav_order: 8
 
   /* Thumbnails */
   .thumbnail {
-    width: 80px;
-    height: auto;
+    width: 80px; /* Fixed width */
+    height: 80px; /* Fixed height */
+    object-fit: contain; /* Preserve aspect ratio within fixed box */
     margin: 0 5px;
     cursor: pointer;
     opacity: 0.6;
