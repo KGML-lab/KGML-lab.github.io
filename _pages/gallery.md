@@ -6,41 +6,114 @@ title: Gallery
 nav: true
 nav_order: 8
 ---
+
+
 <div class="carousel" style="text-align: center;">
-  <div style="position: relative; display: inline-block; width: 80%;">
-    <div class="carousel-slide">
-      <img class="carousel-image" src="/assets/img/lab_photo.jpg" alt="Lab Photo">
-      <div class="caption">KGML Team</div>
-    </div>
-    
-    <div class="carousel-slide" style="display:none;">
-      <img class="carousel-image" src="/assets/img/jie_grad_celebration.jpg" alt="Graduation Celebration">
-      <div class="caption">Jie’s PhD Defense Celebration</div>
-    </div>
-    
+  <div style="position: relative; display: inline-block; width: 80%;" id="carousel-container">
     <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
     <button class="next" onclick="changeSlide(1)">&#10095;</button>
+  </div>
+
+  <!-- Scrollable Thumbnail strip (centered) -->
+  <div id="thumbnail-container-wrapper" style="display: flex; justify-content: center; margin-top: 20px;">
+    <div id="thumbnail-container" style="display: inline-block; width: 80%; overflow-x: auto; white-space: nowrap; padding: 10px 0;">
+    </div>
   </div>
 </div>
 
 <script>
   let slideIndex = 0;
-  showSlides(slideIndex);
+  let slides = [];
+  let autoSlideInterval;
 
-  function changeSlide(n) {
-    showSlides(slideIndex += n);
-  }
-
-  function showSlides(n) {
-    let i;
-    let slides = document.getElementsByClassName("carousel-slide");
-    if (n >= slides.length) { slideIndex = 0 }
-    if (n < 0) { slideIndex = slides.length - 1 }
-    for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
+  // Function to load the JSON data
+  async function loadGallery() {
+    try {
+      const response = await fetch('/assets/img/gallery/gallery.json?v=' + new Date().getTime());
+      const images = await response.json();
+      createCarousel(images);
+    } catch (error) {
+      console.error("Error loading gallery JSON:", error);
     }
-    slides[slideIndex].style.display = "block";
   }
+
+  // Function to dynamically generate carousel slides and thumbnails
+  function createCarousel(images) {
+    const carouselContainer = document.getElementById('carousel-container');
+    const thumbnailContainer = document.getElementById('thumbnail-container');
+
+    images.forEach((image, index) => {
+      // Create the slide
+      const slideDiv = document.createElement('div');
+      slideDiv.classList.add('carousel-slide');
+      if (index !== 0) slideDiv.style.display = "none"; // Only show the first image
+      slides.push(slideDiv); // Store slides in array
+
+      const img = document.createElement('img');
+      img.classList.add('carousel-image');
+      img.src = image.src;
+      img.alt = image.caption;
+      img.style.width = "100%";
+
+      const caption = document.createElement('div');
+      caption.classList.add('caption');
+      caption.textContent = image.caption;
+
+      slideDiv.appendChild(img);
+      slideDiv.appendChild(caption);
+      carouselContainer.insertBefore(slideDiv, carouselContainer.children[0]); // Add slides before buttons
+
+      // Create the thumbnail
+      const thumbnail = document.createElement('img');
+      thumbnail.src = image.src;
+      thumbnail.alt = image.caption;
+      thumbnail.classList.add('thumbnail');
+      thumbnail.onclick = () => {
+        showSlide(index); // Go to specific slide on click
+        clearInterval(autoSlideInterval); // Stop auto sliding when clicked
+        startAutoSlide(); // Restart auto sliding
+      };
+      thumbnailContainer.appendChild(thumbnail);
+    });
+
+    // Initialize first thumbnail as active
+    updateActiveThumbnail(slideIndex);
+    startAutoSlide(); // Start auto-sliding after creating the carousel
+  }
+
+  // Function to change slides (next/previous)
+  function changeSlide(n) {
+    slideIndex += n;
+    if (slideIndex >= slides.length) { slideIndex = 0 }
+    if (slideIndex < 0) { slideIndex = slides.length - 1 }
+    showSlide(slideIndex);
+  }
+
+  // Function to show a specific slide and update active thumbnail
+  function showSlide(n) {
+    slides.forEach(slide => slide.style.display = "none"); // Hide all slides
+    slides[n].style.display = "block"; // Show the selected slide
+    slideIndex = n;
+    updateActiveThumbnail(n); // Update thumbnail highlight
+  }
+
+  // Function to update the active thumbnail
+  function updateActiveThumbnail(index) {
+    const thumbnails = document.querySelectorAll('.thumbnail');
+    thumbnails.forEach(thumb => thumb.classList.remove('active')); // Remove active class from all
+    thumbnails[index].classList.add('active'); // Add active class to current thumbnail
+  }
+
+  // Function to start auto-sliding every 3 seconds
+  function startAutoSlide() {
+    autoSlideInterval = setInterval(() => {
+      slideIndex = (slideIndex + 1) % slides.length; // Automatically move to the next slide
+      showSlide(slideIndex);
+    }, 3000); // 3000ms = 3 seconds
+  }
+
+  // Load the gallery when the page loads
+  loadGallery();
 </script>
 
 <style>
@@ -70,11 +143,11 @@ nav_order: 8
   }
 
   .prev {
-    left: 10px; /* Adjusted to position the arrow inside the 90% container */
+    left: 10px;
   }
 
   .next {
-    right: 10px; /* Adjusted to position the arrow inside the 90% container */
+    right: 10px;
   }
 
   .caption {
@@ -87,5 +160,39 @@ nav_order: 8
 
   .carousel-slide {
     position: relative;
+  }
+
+  /* Thumbnails */
+  .thumbnail {
+    width: 80px;
+    height: auto;
+    margin: 0 5px;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: opacity 0.3s ease;
+    display: inline-block;
+  }
+
+  .thumbnail:hover {
+    opacity: 1;
+  }
+
+  .thumbnail.active {
+    border: 2px solid #333; /* Highlight the active thumbnail */
+    opacity: 1; /* Fully visible */
+  }
+
+  /* Scrollbar styling (optional) */
+  #thumbnail-container::-webkit-scrollbar {
+    height: 8px;
+  }
+
+  #thumbnail-container::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 10px;
+  }
+
+  #thumbnail-container::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
   }
 </style>
