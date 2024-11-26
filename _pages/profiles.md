@@ -174,7 +174,7 @@ profiles:
           <a href="mailto:amartya@vt.edu" style="text-decoration: none; color: #D44638; margin: 0 10px;">
             <i class="fas fa-envelope" style="font-size: 24px;"></i>
           </a>
-          <a href="https://yourwebsite.com" style="text-decoration: none; color: #0a7cdb; margin: 0 10px;">
+          <a href="https://katameronin.github.io/" style="text-decoration: none; color: #0a7cdb; margin: 0 10px;">
             <i class="fas fa-globe" style="font-size: 24px;"></i>
           </a>
                     <a href="https://www.linkedin.com/in/amartyad/" style="text-decoration: none; color: #0077b5; margin: 0 10px;">
