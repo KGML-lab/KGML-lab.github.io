@@ -7,7 +7,7 @@ importance: 1
 related_publications: false
 category: work
 ---
-The goal of this project is to develop hybrid-ecology-ML models of lake water quality where some lake components are represented using ecology models while others are represented using KGML models. We aim to use KGML to improve the accuracy of current standards in lake modeling as well as to discover new knowledge of lake physics and system interactions. This is in collaboration with researchers from BIO at VT, and limnologists from Univ. of Wisconsin.
+The goal of this project is to develop hybrid-ecology-ML models of lake water quality where some lake components are represented using ecology models while others are represented using KGML models. We aim to use KGML to improve the accuracy of current standards in lake modeling as well as to discover new knowledge of lake physics and system interactions. This is in collaboration with researchers from ecologists and limnologists from VT and Univ. of Wisconsin.
 
 
 ### Papers:
