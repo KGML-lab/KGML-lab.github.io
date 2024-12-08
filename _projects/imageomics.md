@@ -2,7 +2,7 @@
 layout: page
 title: "Imageomics: Discovering Biological Traits from Images"
 description: 
-img: assets/img/imageomics.png
+img: assets/img/imageomics2.png
 importance: 1
 related_publications: false
 fund: "$15M NSF HDR Institute Grant​"
