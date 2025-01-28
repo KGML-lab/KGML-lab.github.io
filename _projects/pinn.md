@@ -24,3 +24,18 @@ This is a collaborative project with computer scientists and physicists from Vir
         </p>
     </div>
 </div>
+
+<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+    <div style="flex: 0 0 auto; margin-right: 20px;">
+        <img src="/assets/img/publication_preview/openfwi.png" alt="Thumbnail" style="max-width: 150px; height: auto;">
+    </div>
+    <div style="flex: 1 1 auto;">
+        <h2 style="margin: 0; font-size: 16px;">A Unified Framework for Forward and Inverse Problems in Subsurface Imaging using Latent Space Translations</h2>
+        <p style="margin: 0; font-size: 14px; color: #666;">Naveen Gupta, Medha Sawhney, Arka Daw, Youzuo Lin, Anuj Karpatne</p>
+        <p style="margin: 0; font-size: 12px; color: #666;">ICLR, 2025</p>
+        <p style="margin: 0; font-size: 12px; color: #007bff;">
+            <a href="https://arxiv.org/abs/2410.11247">Paper</a> |
+            <a href="https://github.com/KGML-lab/Genralized-Forward-Inverse-Framework-for-DL4SI" style="text-decoration: none;">Github</a>
+        </p>
+    </div>
+</div>
