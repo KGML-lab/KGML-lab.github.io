@@ -39,7 +39,7 @@ profiles:
   - align: left
     type: student
     name: Medha Sawhney
-    image: MedhaSawhney.png
+    image: MedhaSawhney.jpg
     degree: PhD Student
     content: about/about_sepideh.md
     image_circular: false # crops the image to make it circular
@@ -369,7 +369,7 @@ profiles:
   - align: left
     type: faculty
     name: Anuj Karpatne
-    image: AK_pic2.png
+    image: AK_pic2.jpg
     content: Anuj_Karpatne.md
     image_circular: false # crops the image to make it circular
     more_info: >
