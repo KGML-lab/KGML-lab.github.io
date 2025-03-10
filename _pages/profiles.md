@@ -1,4 +1,3 @@
----
 layout: profiles
 permalink: /people/
 title: Team
@@ -387,6 +386,3 @@ profiles:
           </a>
         </p>
       </div>
-
-
----
