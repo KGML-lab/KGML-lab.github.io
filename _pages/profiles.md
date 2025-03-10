@@ -1,3 +1,4 @@
+---
 layout: profiles
 permalink: /people/
 title: Team
@@ -9,7 +10,32 @@ nav_order: 7
 profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
-  
+  - align: left
+    type: student
+    name: M Maruf
+    image: maruf_upd.jpg
+    degree: PhD Student
+    content: about/about_sepideh.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%;">
+        <p style="margin: 0;">
+          <a href="mailto:marufm@vt.edu" style="text-decoration: none; color: #D44638; margin: 0 10px;">
+            <i class="fas fa-envelope" style="font-size: 24px;"></i>
+          </a>
+          <a href="https://sammarfy.github.io/" style="text-decoration: none; color: #0a7cdb; margin: 0 10px;">
+            <i class="fas fa-globe" style="font-size: 24px;"></i>
+          </a>
+            <a href="https://www.linkedin.com/in/samu14792" style="text-decoration: none; color: #0077b5; margin: 0 10px;">
+            <i class="fab fa-linkedin" style="font-size: 24px;"></i>
+          </a>
+
+          <a href="https://twitter.com/sammarfy" style="text-decoration: none; color: #1DA1F2; margin: 0 10px;">
+            <i class="fab fa-twitter-square" style="font-size: 24px;"></i>
+          </a>
+        </p>
+      </div>
+      
   - align: left
     type: student
     name: Medha Sawhney
@@ -87,6 +113,31 @@ profiles:
 
   - align: left
     type: student
+    name: Harishbabu Manogaran
+    degree: Masters Student
+    image: Harish-Babu-Manogaran.jpg
+    content: about/about_sepideh.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%;">
+        <p style="margin: 0;">
+          <a href="mailto:harishbabu@vt.edu" style="text-decoration: none; color: #D44638; margin: 0 10px;">
+            <i class="fas fa-envelope" style="font-size: 24px;"></i>
+          </a>
+          <a href="https://yourwebsite.com" style="text-decoration: none; color: #0a7cdb; margin: 0 10px;">
+            <i class="fas fa-globe" style="font-size: 24px;"></i>
+          </a>
+                    <a href="https://www.linkedin.com/in/harish-babu-m/" style="text-decoration: none; color: #0077b5; margin: 0 10px;">
+            <i class="fab fa-linkedin" style="font-size: 24px;"></i>
+          </a>
+          <a href="https://twitter.com/yourprofile" style="text-decoration: none; color: #1DA1F2; margin: 0 10px;">
+            <i class="fab fa-twitter-square" style="font-size: 24px;"></i>
+          </a>
+        </p>
+      </div>
+
+  - align: left
+    type: student
     name: Abhilash Neog
     degree: PhD Student
     image: Abhilash-Neog_upd.jpg
@@ -113,7 +164,8 @@ profiles:
   - align: left
     type: student
     name: Amartya Dutta
-    degree: PhD Student (Co-advised by Anuj Karpatne and T.M. Murali)
+    degree: Masters Student
+
     image: Amartya-Dutta_upd.png
     content: about/about_sepideh.md
     image_circular: false # crops the image to make it circular
@@ -188,7 +240,8 @@ profiles:
   - align: left
     type: student
     name: Blessy Antony
-    degree: PhD Student (Co-advised by Anuj Karpatne and T.M. Murali)
+    degree: PhD Student (Co-advised by Anuj Karpatne and T. Murali)
+
     image: BlessyAntony_upd.jpg
     content: about/about_sepideh.md
     image_circular: false # crops the image to make it circular
@@ -214,7 +267,7 @@ profiles:
     type: alumni
     name: Arka Daw
     degree: PhD Student, 2023
-    now: Applied Scientist AGI, Amazon
+    now: Distinguished Staff Fellow, ORNL
     image: Arka_pic-upd.jpg
     content: about/about_sepideh.md
     image_circular: false # crops the image to make it circular
@@ -313,55 +366,6 @@ profiles:
           </a> -->
         </p>
       </div>
-      
- - align: left
-    type: alumni
-    name: Harishbabu Manogaran
-    degree: Masters Student, 2024
-    now: 
-    image: Harish-Babu-Manogaran.jpg
-    content: about/about_sepideh.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%;">
-        <p style="margin: 0;">
-          <a href="mailto:harishbabu@vt.edu" style="text-decoration: none; color: #D44638; margin: 0 10px;">
-            <i class="fas fa-envelope" style="font-size: 24px;"></i>
-          </a>
-          <a href="https://yourwebsite.com" style="text-decoration: none; color: #0a7cdb; margin: 0 10px;">
-            <i class="fas fa-globe" style="font-size: 24px;"></i>
-          </a>
-                    <a href="https://www.linkedin.com/in/harish-babu-m/" style="text-decoration: none; color: #0077b5; margin: 0 10px;">
-            <i class="fab fa-linkedin" style="font-size: 24px;"></i>
-          </a>
-          <a href="https://twitter.com/yourprofile" style="text-decoration: none; color: #1DA1F2; margin: 0 10px;">
-            <i class="fab fa-twitter-square" style="font-size: 24px;"></i>
-          </a>
-        </p>
-      </div>    
-      
-- align: left
-    type: alumni
-    name: M Maruf
-    degree: PhD Student, 2024
-    now: Applied Scientist AGI, Amazon
-    image: maruf_upd.jpg
-    content: about/about_sepideh.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%;">
-        <p style="margin: 0;">
-          <a href="mailto:marufm@vt.edu" style="text-decoration: none; color: #D44638; margin: 0 10px;">
-            <i class="fas fa-envelope" style="font-size: 24px;"></i>
-          </a>
-          <a href="https://sammarfy.github.io/" style="text-decoration: none; color: #0a7cdb; margin: 0 10px;">
-            <i class="fas fa-globe" style="font-size: 24px;"></i>
-          </a>
-            <a href="https://www.linkedin.com/in/samu14792" style="text-decoration: none; color: #0077b5; margin: 0 10px;">
-            <i class="fab fa-linkedin" style="font-size: 24px;"></i>
-          </a>
-      </div>
-    
 
   - align: left
     type: faculty
@@ -386,3 +390,6 @@ profiles:
           </a>
         </p>
       </div>
+
+
+---
