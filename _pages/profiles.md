@@ -113,8 +113,7 @@ profiles:
   - align: left
     type: student
     name: Amartya Dutta
-    degree: PhD Student
-    (Co-advised by Anuj Karpatne and T.M. Murali)
+    degree: PhD Student (Co-advised by Anuj Karpatne and T.M. Murali)
     image: Amartya-Dutta_upd.png
     content: about/about_sepideh.md
     image_circular: false # crops the image to make it circular
@@ -189,8 +188,7 @@ profiles:
   - align: left
     type: student
     name: Blessy Antony
-    degree: PhD Student
-    (Co-advised by Anuj Karpatne and T.M. Murali)
+    degree: PhD Student (Co-advised by Anuj Karpatne and T.M. Murali)
     image: BlessyAntony_upd.jpg
     content: about/about_sepideh.md
     image_circular: false # crops the image to make it circular
