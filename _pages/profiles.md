@@ -360,11 +360,6 @@ profiles:
             <a href="https://www.linkedin.com/in/samu14792" style="text-decoration: none; color: #0077b5; margin: 0 10px;">
             <i class="fab fa-linkedin" style="font-size: 24px;"></i>
           </a>
-
-          <a href="https://twitter.com/sammarfy" style="text-decoration: none; color: #1DA1F2; margin: 0 10px;">
-            <i class="fab fa-twitter-square" style="font-size: 24px;"></i>
-          </a>
-        </p>
       </div>
     
 
