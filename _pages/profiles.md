@@ -214,7 +214,7 @@ profiles:
   - align: left
     type: alumni
     name: Jie Bu
-    degree: PhD Student, 2023
+    degree: PhD, May, 2023
     now: Machine Learning Engineer, Apple
     image: Jie_upd.jpg
     content: about/about_sepideh.md
@@ -240,7 +240,7 @@ profiles:
   - align: left
     type: alumni
     name: Mohannad Elhamod
-    degree: PhD Student, 2023
+    degree: PhD, May, 2023
     now: Clinical Assistant Professor, Boston University
     image: Moe.png
     content: about/about_sepideh.md
@@ -266,7 +266,7 @@ profiles:
   - align: left
     type: alumni
     name: Arka Daw
-    degree: PhD Student, 2023
+    degree: PhD, December, 2023
     now: Applied Scientist AGI, Amazon
     image: Arka_pic-upd.jpg
     content: about/about_sepideh.md
@@ -290,11 +290,11 @@ profiles:
       </div>
 
 
-   - align: left
+  - align: left
     type: alumni
     name: M Maruf
     image: maruf_upd.jpg
-    degree: PhD Student, 2024
+    degree: PhD, December, 2024
     now: Applied Scientist AGI, Amazon
     content: about/about_sepideh.md
     image_circular: false # crops the image to make it circular
