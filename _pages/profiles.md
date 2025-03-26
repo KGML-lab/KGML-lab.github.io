@@ -210,32 +210,7 @@ profiles:
         </p>
       </div>
 
-  - align: left
-    type: alumni
-    name: Arka Daw
-    degree: PhD Student, 2023
-    now: Applied Scientist AGI, Amazon
-    image: Arka_pic-upd.jpg
-    content: about/about_sepideh.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%;">
-        <p style="margin: 0;">
-          <a href="mailto:dawa@ornl.gov" style="text-decoration: none; color: #D44638; margin: 0 10px;">
-            <i class="fas fa-envelope" style="font-size: 24px;"></i>
-          </a>
-          <a href="https://people.cs.vt.edu/darka/" style="text-decoration: none; color: #0a7cdb; margin: 0 10px;">
-            <i class="fas fa-globe" style="font-size: 24px;"></i>
-          </a>
-                    <a href="https://www.linkedin.com/in/arka-daw/" style="text-decoration: none; color: #0077b5; margin: 0 10px;">
-            <i class="fab fa-linkedin" style="font-size: 24px;"></i>
-          </a>
-          <a href="https://twitter.com/arkadaw_" style="text-decoration: none; color: #1DA1F2; margin: 0 10px;">
-            <i class="fab fa-twitter-square" style="font-size: 24px;"></i>
-          </a>
-        </p>
-      </div>
-
+  
   - align: left
     type: alumni
     name: Jie Bu
@@ -290,6 +265,60 @@ profiles:
 
   - align: left
     type: alumni
+    name: Arka Daw
+    degree: PhD Student, 2023
+    now: Applied Scientist AGI, Amazon
+    image: Arka_pic-upd.jpg
+    content: about/about_sepideh.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%;">
+        <p style="margin: 0;">
+          <a href="mailto:dawa@ornl.gov" style="text-decoration: none; color: #D44638; margin: 0 10px;">
+            <i class="fas fa-envelope" style="font-size: 24px;"></i>
+          </a>
+          <a href="https://people.cs.vt.edu/darka/" style="text-decoration: none; color: #0a7cdb; margin: 0 10px;">
+            <i class="fas fa-globe" style="font-size: 24px;"></i>
+          </a>
+                    <a href="https://www.linkedin.com/in/arka-daw/" style="text-decoration: none; color: #0077b5; margin: 0 10px;">
+            <i class="fab fa-linkedin" style="font-size: 24px;"></i>
+          </a>
+          <a href="https://twitter.com/arkadaw_" style="text-decoration: none; color: #1DA1F2; margin: 0 10px;">
+            <i class="fab fa-twitter-square" style="font-size: 24px;"></i>
+          </a>
+        </p>
+      </div>
+
+
+   - align: left
+    type: alumni
+    name: M Maruf
+    image: maruf_upd.jpg
+    degree: PhD Student, 2024
+    now: Applied Scientist AGI, Amazon
+    content: about/about_sepideh.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%;">
+        <p style="margin: 0;">
+          <a href="mailto:marufm@vt.edu" style="text-decoration: none; color: #D44638; margin: 0 10px;">
+            <i class="fas fa-envelope" style="font-size: 24px;"></i>
+          </a>
+          <a href="https://sammarfy.github.io/" style="text-decoration: none; color: #0a7cdb; margin: 0 10px;">
+            <i class="fas fa-globe" style="font-size: 24px;"></i>
+          </a>
+            <a href="https://www.linkedin.com/in/samu14792" style="text-decoration: none; color: #0077b5; margin: 0 10px;">
+            <i class="fab fa-linkedin" style="font-size: 24px;"></i>
+          </a>
+
+          <a href="https://twitter.com/sammarfy" style="text-decoration: none; color: #1DA1F2; margin: 0 10px;">
+            <i class="fab fa-twitter-square" style="font-size: 24px;"></i>
+          </a>
+        </p>
+      </div>
+
+  - align: left
+    type: alumni
     name: Naveen Gupta
     degree: Masters Student, 2023
     now: ML Engineer @ SLB
@@ -335,33 +364,6 @@ profiles:
             <i class="fab fa-linkedin" style="font-size: 24px;"></i>
           </a>
           <a href="https://twitter.com/yourprofile" style="text-decoration: none; color: #1DA1F2; margin: 0 10px;">
-            <i class="fab fa-twitter-square" style="font-size: 24px;"></i>
-          </a>
-        </p>
-      </div>
-      
-  - align: left
-    type: alumni
-    name: M Maruf
-    image: maruf_upd.jpg
-    degree: PhD Student, 2024
-    now: Applied Scientist AGI, Amazon
-    content: about/about_sepideh.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%;">
-        <p style="margin: 0;">
-          <a href="mailto:marufm@vt.edu" style="text-decoration: none; color: #D44638; margin: 0 10px;">
-            <i class="fas fa-envelope" style="font-size: 24px;"></i>
-          </a>
-          <a href="https://sammarfy.github.io/" style="text-decoration: none; color: #0a7cdb; margin: 0 10px;">
-            <i class="fas fa-globe" style="font-size: 24px;"></i>
-          </a>
-            <a href="https://www.linkedin.com/in/samu14792" style="text-decoration: none; color: #0077b5; margin: 0 10px;">
-            <i class="fab fa-linkedin" style="font-size: 24px;"></i>
-          </a>
-
-          <a href="https://twitter.com/sammarfy" style="text-decoration: none; color: #1DA1F2; margin: 0 10px;">
             <i class="fab fa-twitter-square" style="font-size: 24px;"></i>
           </a>
         </p>
