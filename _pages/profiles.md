@@ -320,7 +320,7 @@ profiles:
   - align: left
     type: alumni
     name: Naveen Gupta
-    degree: Masters Student, 2023
+    degree: Masters, May, 2023
     now: ML Engineer @ SLB
     image: NaveenGupta_pic_upd.jpg
     content: about/about_sepideh.md
@@ -346,7 +346,7 @@ profiles:
   - align: left
     type: alumni
     name: Harishbabu Manogaran
-    degree: Masters Student, 2024
+    degree: Masters, October, 2024
     now: ML Engineer
     image: Harish-Babu-Manogaran.jpg
     content: about/about_sepideh.md
