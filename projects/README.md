@@ -1,0 +1,1 @@
+To add a project page for a specific project just creat ea folder with <project_name> and add all necessary html/css/js files with required img/pdf assests. The project page will be visible at https://kgml-lab.github.io/projects/<project_name>/
