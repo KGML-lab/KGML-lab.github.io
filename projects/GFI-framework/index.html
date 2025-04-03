@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A Unified Framework for Forward and Inverse Problems in Subsurface Imaging using Latent Space Translations.">
+  <title>GFI: Generalized Forward-Inverse Framework</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css">
+  <link rel="icon" href="https://raw.githubusercontent.com/KGML-lab/KGML-lab.github.io/master/assets/img/lab_logo_icon.png">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar" role="navigation">
+  <div class="navbar-menu is-active">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <a class="navbar-item" href="https://kgml-lab.github.io/">
+        <span class="icon">
+          <i class="fas fa-home"></i>
+        </span>
+      </a>
+    </div>
+  </div>
+</nav>
+
+<!-- Title + Authors -->
+<section class="hero">
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <h1 class="title is-1">A Unified Framework for Forward and Inverse Problems in Subsurface Imaging using Latent Space Translations</h1>
+      <hr style="width: 60%; margin: 1.5rem auto;">
+      <h2 class="subtitle is-4 has-text-weight-bold">ICLR 2025</h2>
+      <div class="is-size-5 publication-authors">
+        <span class="author-block"><a href="https://www.linkedin.com/in/naveengupta1729/">Naveen Gupta</a><sup>1*</sup>,</span>
+        <span class="author-block"><a href="https://sawhney-medha.github.io/">Medha Sawhney</a><sup>1*</sup>,</span>
+        <span class="author-block"><a href="https://arkadaw9.github.io/">Arka Daw</a><sup>2*</sup>,</span>
+        <span class="author-block"><a href="https://sites.google.com/site/youzuolin044/home">Youzuo Lin</a><sup>3</sup>,</span>
+        <span class="author-block"><a href="https://anujkarpatne.github.io/">Anuj Karpatne</a><sup>1</sup></span>
+      </div>
+      <div class="is-size-5 publication-authors">
+        <span class="author-block"><sup>1</sup>Virginia Tech,</span>
+        <span class="author-block"><sup>2</sup>Oak Ridge National Lab,</span>
+        <span class="author-block"><sup>3</sup>UNC at Chapel Hill</span>
+      </div>
+
+      <div class="buttons is-centered mt-4">
+        <a href="https://arxiv.org/abs/2410.11247" class="button is-dark is-rounded">
+          <span class="icon"><i class="ai ai-arxiv"></i></span>
+          <span>arXiv</span>
+        </a>
+        <a href="https://openreview.net/forum?id=yIlyHJdYV3" class="button is-dark is-rounded">
+          <span class="icon"><i class="fas fa-star"></i></span>
+          <span>OpenReview</span>
+        </a>
+        <a href="https://github.com/KGML-lab/Generalized-Forward-Inverse-Framework-for-DL4SI" class="button is-dark is-rounded">
+          <span class="icon"><i class="fab fa-github"></i></span>
+          <span>Code</span>
+        </a>
+        <a href="https://iclr.cc/virtual/2025/poster/27736" class="button is-dark is-rounded">
+          <span class="icon"><i class="fas fa-file-pdf"></i></span>
+          <span>PDF</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Teaser Video or Image -->
+<section class="section">
+  <div class="container is-max-desktop has-text-centered">
+    <h2 class="title is-3">Teaser</h2>
+    <video src="./static/videos/teaser.mp4" autoplay muted loop playsinline controls width="90%"></video>
+    <!-- OR use this if you only have an image: -->
+    <!-- <img src="./static/images/teaser.jpg" alt="Teaser image" width="90%"> -->
+  </div>
+  <hr style="width: 60%; margin: 2rem auto;">
+</section>
+
+<!-- Abstract -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3">Abstract</h2>
+    <div class="content has-text-justified">
+      <p>
+        We propose a unified framework that bridges forward and inverse modeling in scientific machine learning for subsurface imaging problems. Our approach uses latent space translations to enable task-agnostic learning with significant reductions in GPU requirements...
+      </p>
+    </div>
+  </div>
+  <hr style="width: 60%; margin: 2rem auto;">
+</section>
+
+<!-- Architecture Diagram -->
+<section class="section">
+  <div class="container is-max-desktop has-text-centered">
+    <h2 class="title is-3">Method Overview</h2>
+    <img src="./static/images/architecture.png" alt="Model Architecture" width="90%">
+  </div>
+  <hr style="width: 60%; margin: 2rem auto;">
+</section>
+
+<!-- Results Table Placeholder -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3">Quantitative Results</h2>
+    <p class="has-text-centered">Table comparing PSNR / MSE / FID between baselines and our method.</p>
+    <img src="./static/images/results-table.png" alt="Results Table" width="90%">
+  </div>
+</section>
+
+<!-- BibTeX -->
+<section class="section" id="bibtex">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@inproceedings{
+gupta2025a,
+title={A Unified Framework for Forward and Inverse Problems in Subsurface Imaging using Latent Space Translations},
+author={Naveen Gupta and Medha Sawhney and Arka Daw and Youzuo Lin and Anuj Karpatne},
+booktitle={The Thirteenth International Conference on Learning Representations},
+year={2025},
+url={https://openreview.net/forum?id=yIlyHJdYV3}
+}</code></pre>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container has-text-centered">
+    <p>
+      Template adapted from <a href="https://nerfies.github.io">Nerfies</a>.
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>
+
