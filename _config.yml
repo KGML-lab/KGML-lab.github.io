@@ -13,7 +13,7 @@ footer_text: >
   KGML Lab. Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Background image created by <a href="https://people.cs.vt.edu/darka/">Arka Daw</a> using GPT-4.
 keywords: knowledge-guided machine learning, KGML, AI4Science, jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: logo.jpg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: lab_logo_icon.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://KGML-lab.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
