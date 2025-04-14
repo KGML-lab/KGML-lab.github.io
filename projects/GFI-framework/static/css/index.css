@@ -23,10 +23,15 @@ body {
   padding-bottom: 3rem;
 }
 
-.gfi_models_figures {
-  display: flex;
+.gfi_framework {
   font-family: 'Google Sans', sans-serif;
   
+}
+
+.model_architectures{
+  display:flex;
+  justify-content:space-around;
+  align-items:flex-start;
 }
 
 
