@@ -85,7 +85,7 @@
 
 <!-- Abstract -->
 <section class="section">
-  <div class="abstract_div">
+  <div class="container is-max-desktop has-text-centered">
     <h2 class="title is-3"> Abstract </h2>
       <p>
         In subsurface imaging, learning the mapping from velocity maps to seismic waveforms (forward problem) and waveforms to velocity (inverse problem) is important for several applications. While traditional  techniques for solving forward and inverse problems are computationally prohibitive, there is a growing interest in leveraging recent advances in deep learning to learn the mapping between velocity maps and seismic waveform images directly from data.
@@ -103,31 +103,34 @@
   <div class="container is-max-desktop has-text-centered">
     <h2 class="title is-3">Method Overview</h2>
     <p>
-      We propose Generalized Forward-Inverse (GFI) framework based on two assumptions. First, according to the manifold assumption, we assume that the velocity maps v ∈ V and seismic
-    waveforms p ∈ P can be projected to their corresponding latent space representations, v˜ and p˜,
-    respectively, which can be mapped back to their reconstructions in the original space, vˆ and pˆ. Note
-    that the sizes of the latent spaces can be smaller or larger than the original spaces. Further, the size
-    of v˜ may not match with the size of p˜. Second, according to the latent space
-    translation assumption, we assume that the problem of learning forward and inverse mappings in
-    the original spaces of velocity and waveforms can be reformulated as learning translations in their
+    We propose Generalized Forward-Inverse (GFI) framework based on two assumptions. First, according to the manifold assumption, we assume that the velocity maps v ∈ V and seismic
+    waveforms p ∈ P can be projected to their corresponding latent space representations, v˜ and p˜, respectively, which can be mapped back to their reconstructions in the original space, vˆ and pˆ. 
+    Note that the sizes of the latent spaces can be smaller or larger than the original spaces. Further, the size of v˜ may not match with the size of p˜. Second, according to the latent space
+    translation assumption, we assume that the problem of learning forward and inverse mappings in the original spaces of velocity and waveforms can be reformulated as learning translations in their
     latent spaces. 
     </p>
-
-    <div class="model_architectures">
-    <div class="latent_unet">
-      <figure>
-        <img src="./static/images/LatentU-Net.png" alt="Latent U-Net architecture" loading="lazy" width=45%>
-        <figcaption> Latent U-Net architecture </figcaption>
-      </figure>
-    </div>
-    <div class="inv_xnet">
-      <figure>
-        <img src="./static/images/InvertibleX-Net.png" alt="Invertible X-Net architecture" loading="lazy" width=45%>
-        <figcaption> Invertible X-Net architecture </figcaption>
-      </figure>
-    </div>
-  </div>
-    
+    <ol>
+      <li>
+        <b>Latent U-Net Architecture: </b> 
+        
+        <div class="latent_unet">
+          <figure>
+            <img src="./static/images/LatentU-Net.png" alt="Latent U-Net architecture" loading="lazy" width=45%>
+            <figcaption> Latent U-Net architecture </figcaption>
+          </figure>
+        </div>
+        
+      </li>
+      <li>
+        <b>Invertible X-Net Architecture: </b> 
+        <div class="inv_xnet">
+          <figure>
+            <img src="./static/images/InvertibleX-Net.png" alt="Invertible X-Net architecture" loading="lazy" width=45%>
+            <figcaption> Invertible X-Net architecture </figcaption>
+          </figure>
+        </div>
+      </li>
+    </ol>
   </div>
   <hr style="width: 60%; margin: 2rem auto;">
 </section>
