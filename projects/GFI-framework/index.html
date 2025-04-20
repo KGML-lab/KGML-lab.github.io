@@ -26,78 +26,64 @@
   
 <body>
   <main>
+    <h1>A Unified Framework for Forward and Inverse Problems in Subsurface Imaging using Latent Space Translations</h1>
+    <h2 style="text-align: center;">ICLR 2025</h2>
+  
+    <p class="centered">
+      <a href="https://www.linkedin.com/in/naveengupta1729/">Naveen Gupta</a><sup>1*</sup>,
+      <a href="https://sawhney-medha.github.io/">Medha Sawhney</a><sup>1*</sup>,
+      <a href="https://arkadaw9.github.io/">Arka Daw</a><sup>2*</sup>,
+      <a href="https://sites.google.com/site/youzuolin044/home">Youzuo Lin</a><sup>3*</sup>,
+      <a href="https://anujkarpatne.github.io/">Anuj Karpatne</a><sup>1</sup>
+    </p>
+    <p class="centered">
+      <sup>1</sup>Virginia Tech,
+      <sup>2</sup>Oak Ridge National Lab,
+      <sup>3</sup>UNC at Chapel Hill
+    </p>
+  
+    <p class="centered">
+      <a class="pill-button" href="https://arxiv.org/abs/2410.11247">
+        <img src="images/icons/arxiv.svg" /> arXiv
+      </a>
+      <a class="pill-button" href="https://openreview.net/forum?id=yIlyHJdYV3">
+        <i class="fas fa-star"></i> OpenReview
+      </a>
+      <a class="pill-button" href="https://github.com/KGML-lab/Generalized-Forward-Inverse-Framework-for-DL4SI>
+        <img src="images/icons/github.svg" /> Code
+      </a>
+  
+      <a class="pill-button" href="https://iclr.cc/virtual/2025/poster/27736">
+        <i class="fas fa-file-pdf"></i> PDF
+      </a>
+    </p>
+  
 
-<!--   <!-- Navigation -->
-  <nav class="navbar" role="navigation">
-    <div class="navbar-menu is-active">
-      <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
-        <a class="navbar-item" href="https://kgml-lab.github.io/">
-          <span class="icon">
-            <i class="fas fa-home"></i>
-          </span>
-        </a>
+    <section class="section">
+      <div class="gfi_framework">
+        <figure>
+           <img src="./static/images/GFI_Framework.png" alt="GFI Framework" loading="lazy" width=25%>
+          <figcaption> Figure 1: A unified framework for solving forward and inverse problems in subsurface imaging. </figcaption>
+        </figure>
       </div>
-    </div>
-  </nav> -->
-
-  <h1>A Unified Framework for Forward and Inverse Problems in Subsurface Imaging using Latent Space Translations</h1>
-  <h2 style="text-align: center;">ICLR 2025</h2>
-
-  <p class="centered">
-    <a href="https://www.linkedin.com/in/naveengupta1729/">Naveen Gupta</a><sup>1*</sup>,
-    <a href="https://sawhney-medha.github.io/">Medha Sawhney</a><sup>1*</sup>,
-    <a href="https://arkadaw9.github.io/">Arka Daw</a><sup>2*</sup>,
-    <a href="https://sites.google.com/site/youzuolin044/home">Youzuo Lin</a><sup>3*</sup>,
-    <a href="https://anujkarpatne.github.io/">Anuj Karpatne</a><sup>1</sup>
-  </p>
-  <p class="centered">
-    <sup>1</sup>Virginia Tech,
-    <sup>2</sup>Oak Ridge National Lab,
-    <sup>3</sup>UNC at Chapel Hill
-  </p>
-
-  <p class="centered">
-    <a class="pill-button" href="https://arxiv.org/abs/2410.11247">
-      <img src="images/icons/arxiv.svg" /> arXiv
-    </a>
-    <a class="pill-button" href="https://openreview.net/forum?id=yIlyHJdYV3">
-      <i class="fas fa-star"></i> OpenReview
-    </a>
-    <a class="pill-button" href="https://github.com/KGML-lab/Generalized-Forward-Inverse-Framework-for-DL4SI>
-      <img src="images/icons/github.svg" /> Code
-    </a>
-
-    <a class="pill-button" href="https://iclr.cc/virtual/2025/poster/27736">
-      <i class="fas fa-file-pdf"></i> PDF
-    </a>
-  </p>
+      <hr style="width: 60%; margin: 2rem auto;">
+    </section>
   
-
-  <section class="section">
-    <div class="gfi_framework">
-      <figure>
-         <img src="./static/images/GFI_Framework.png" alt="GFI Framework" loading="lazy" width=25%>
-        <figcaption> Figure 1: A unified framework for solving forward and inverse problems in subsurface imaging. </figcaption>
-      </figure>
-    </div>
-    <hr style="width: 60%; margin: 2rem auto;">
-  </section>
-  
-  <!-- Abstract -->
-  <section class="section">
-    <div class="container is-max-desktop has-text-justified">
-      <h2 class="title is-3"> Abstract </h2>
-        <p>
-          In subsurface imaging, learning the mapping from velocity maps to seismic waveforms (forward problem) and waveforms to velocity (inverse problem) is important for several applications. While traditional  techniques for solving forward and inverse problems are computationally prohibitive, there is a growing interest in leveraging recent advances in deep learning to learn the mapping between velocity maps and seismic waveform images directly from data.
-          Despite the variety of architectures explored in previous works, several open questions remain unanswered such as the effect of latent space sizes, the importance of manifold learning, the complexity of translation models,  and the value of jointly solving forward and inverse problems.
-          We propose a unified framework to systematically characterize prior research in this area termed the Generalized Forward-Inverse (GFI) framework, building on the assumption of manifolds and latent space translations. 
-          We show that GFI encompasses previous works in deep learning for subsurface imaging,  which can be viewed as specific instantiations of GFI.
-          We also propose two new model architectures within the framework of GFI: Latent U-Net and Invertible X-Net, leveraging the power of U-Nets for domain translation and the ability of IU-Nets to simultaneously learn  forward and inverse translations, respectively.
-          We show that our proposed models achieve state-of-the-art performance for forward and inverse problems on a wide range of synthetic datasets and also investigate their zero-shot effectiveness on two real-world-like datasets.
-        </p>
-    </div>
-    <hr style="width: 60%; margin: 2rem auto;">
-  </section>
+    <!-- Abstract -->
+    <section class="section">
+      <div class="container is-max-desktop has-text-justified">
+        <h2 class="title is-3"> Abstract </h2>
+          <p>
+            In subsurface imaging, learning the mapping from velocity maps to seismic waveforms (forward problem) and waveforms to velocity (inverse problem) is important for several applications. While traditional  techniques for solving forward and inverse problems are computationally prohibitive, there is a growing interest in leveraging recent advances in deep learning to learn the mapping between velocity maps and seismic waveform images directly from data.
+            Despite the variety of architectures explored in previous works, several open questions remain unanswered such as the effect of latent space sizes, the importance of manifold learning, the complexity of translation models,  and the value of jointly solving forward and inverse problems.
+            We propose a unified framework to systematically characterize prior research in this area termed the Generalized Forward-Inverse (GFI) framework, building on the assumption of manifolds and latent space translations. 
+            We show that GFI encompasses previous works in deep learning for subsurface imaging,  which can be viewed as specific instantiations of GFI.
+            We also propose two new model architectures within the framework of GFI: Latent U-Net and Invertible X-Net, leveraging the power of U-Nets for domain translation and the ability of IU-Nets to simultaneously learn  forward and inverse translations, respectively.
+            We show that our proposed models achieve state-of-the-art performance for forward and inverse problems on a wide range of synthetic datasets and also investigate their zero-shot effectiveness on two real-world-like datasets.
+          </p>
+      </div>
+      <hr style="width: 60%; margin: 2rem auto;">
+    </section>
   
   <section class="section">
     <div class="container is-max-desktop has-text-justified">
