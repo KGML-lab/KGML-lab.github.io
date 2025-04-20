@@ -34,31 +34,6 @@ font-size: 2.8em;
 line-height: 1.2em;
 }
 
-
-.gfi_framework {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-family: 'Google Sans', sans-serif;
-}
-
-.gfi_framework figure {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.gfi_framework figure figcaption {
-  margin-top: 8px; 
-  text-align: center;
-}
-
-.model_architectures {
-  display:flex;
-  justify-content:space-around;
-  align-items:flex-start;
-}
-
 .latent_unet {
   display: flex;
   justify-content: center;
@@ -93,18 +68,9 @@ line-height: 1.2em;
   text-align: center;
 }
 
-.abstract_div h2 {
-  width: 100vw;
-  position: relative;
-  left: calc(-50vw + 50%);
-  padding: 1em;
-  text-align: center;
-  background-color: var(--nice-gray);
-}
-
-  /***************
-    Helpers
-  ***************/
+/***************
+Helpers
+***************/
 
  .no-border-top {
     border-top: 0;
@@ -128,9 +94,9 @@ line-height: 1.2em;
     left: calc(-45vw + 50%);
   }
   .banded {
-    width: 100vw;
+/*     width: 100vw; */
     position: relative;
-    left: calc(-50vw + 50%);
+/*     left: calc(-50vw + 50%); */
   
     padding: 1em;
     text-align: center;
