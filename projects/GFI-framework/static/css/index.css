@@ -124,13 +124,13 @@ body {
   align-items: center;
 }
 
-.latent-unet figure {
+.latent-unet figure img{
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.latent-unet figcaption {
+.latent-unet figure figcaption {
   margin-top: 8px;   /* Space between image and caption */
   text-align: center;
 }
@@ -141,13 +141,13 @@ body {
   align-items: center;
 }
 
-.inv_xnet figure {
+.inv_xnet figure img{
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.inv_xnet figcaption {
+.inv_xnet figure figcaption {
   margin-top: 8px;   /* Space between image and caption */
   text-align: center;
 }
