@@ -28,6 +28,12 @@ main {
   min-height: calc(var(--main-width));
 }
 
+h1 {
+text-align: center;
+font-size: 2.8em;
+line-height: 1.2em;
+}
+
 
 .gfi_framework {
   display: flex;
@@ -95,4 +101,12 @@ main {
   text-align: center;
   background-color: var(--nice-gray);
 }
+
+  /***************
+    Helpers
+  ***************/
+
+.centered {
+    text-align: center;
+  }
 
