@@ -79,6 +79,9 @@
        <img src="./static/images/GFI_Framework.png" alt="GFI Framework" loading="lazy" width=25%>
       <figcaption> Generalized Forward-Inverse Framework </figcaption>
     </figure>
+    <p>
+      Figure 1: A unified framework for solving forward and inverse problems in subsurface imaging.
+    </p>
   </div>
   <hr style="width: 60%; margin: 2rem auto;">
 </section>
@@ -104,14 +107,17 @@
     <h2 class="title is-3">Method Overview</h2>
     <p>
     We propose Generalized Forward-Inverse (GFI) framework based on two assumptions. First, according to the manifold assumption, we assume that the velocity maps v ∈ \(\mathcal{V}\) and seismic
-    waveforms p ∈ \(\mathcal{P}\) can be projected to their corresponding latent space representations, \(\tilde{v}\) and \(\tilde{p}\), respectively, which can be mapped back to their reconstructions in the original space, \(\hat{v}\) and \(\hat{p}\). 
+    waveforms p ∈ \(\mathcal{P}\) can be projected to their corresponding latent space representations, v&#771; and p&#771;, respectively, which can be mapped back to their reconstructions in the original space, \(\hat{v}\) and \(\hat{p}\). 
     Note that the sizes of the latent spaces can be smaller or larger than the original spaces. Further, the size of \(\tilde{v}\) may not match with the size of \(\tilde{p}\). Second, according to the latent space
     translation assumption, we assume that the problem of learning forward and inverse mappings in the original spaces of velocity and waveforms can be reformulated as learning translations in their
     latent spaces. 
     </p>
     <ol>
       <li>
-        <b>Latent U-Net Architecture: </b> 
+        <b>Latent U-Net Architecture: </b> We propose a novel architecture to solve forward and inverse problems using two latent space translation models implemented using U-Nets, termed Latent U-Net. As shown in Figure below, Latent
+        U-Net uses ConvNet backbones for both encoder-decoder pairs: (Ev, Dv) and (Ep, Dp), to project
+        v and p to lower-dimensional representations. We also constrain the sizes of the latent spaces of
+         \(\tilde{v}\) and \(\tilde{p}\) to be identical, i.e., dim(\(\tilde{v}\)) = dim(\(\tilde{p}\)), so that we can train two separate U-Net models to implement the latent space mappings L<sub>v&#771; &rarr; p&#771;</sub> and L<sub>p&#771; &rarr; v&#771;</sub>.
         
         <div class="latent_unet">
           <figure>
