@@ -2,7 +2,7 @@ body {
   font-family: 'Noto Sans', sans-serif;
 }
 
-
+/* 
 .footer .icon-link {
     font-size: 25px;
     color: #000;
@@ -77,7 +77,7 @@ body {
 
 
 .publication-body img {
-}
+} */
 
 .gfi_framework {
   display: flex;
@@ -147,7 +147,7 @@ body {
 }
 
 
-.results-carousel {
+/* .results-carousel {
   overflow: hidden;
 }
 
@@ -191,4 +191,4 @@ body {
 }
 #interpolation-image-wrapper img {
   border-radius: 5px;
-}
+} */
