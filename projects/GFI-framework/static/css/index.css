@@ -43,13 +43,13 @@ body {
   align-items: center;
 }
 
-figure {
+.latent-unet figure {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-figcaption {
+.latent-unet figcaption {
   margin-top: 8px;   /* Space between image and caption */
   text-align: center;
 }
@@ -58,6 +58,17 @@ figcaption {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.inv_xnet figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inv_xnet figcaption {
+  margin-top: 8px;   /* Space between image and caption */
+  text-align: center;
 }
 
 
