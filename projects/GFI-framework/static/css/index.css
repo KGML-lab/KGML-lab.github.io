@@ -103,19 +103,19 @@ body {
   align-items:flex-start;
 }
 
-.latent-unet {
+.latent_unet {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.latent-unet figure {
+.latent_unet figure {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.latent-unet figure figcaption {
+.latent_unet figure figcaption {
   margin-top: 8px; 
   text-align: center;
 }
