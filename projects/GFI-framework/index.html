@@ -79,7 +79,7 @@
 
     <!-- Abstract -->
     <h2 class="banded"> Abstract </h2>
-    <p>
+    <p style="text-align:justify;">
       In subsurface imaging, learning the mapping from velocity maps to seismic waveforms (forward problem) and waveforms to velocity (inverse problem) is important for several applications. While traditional  techniques for solving forward and inverse problems are computationally prohibitive, there is a growing interest in leveraging recent advances in deep learning to learn the mapping between velocity maps and seismic waveform images directly from data.
       Despite the variety of architectures explored in previous works, several open questions remain unanswered such as the effect of latent space sizes, the importance of manifold learning, the complexity of translation models,  and the value of jointly solving forward and inverse problems.
       We propose a unified framework to systematically characterize prior research in this area termed the Generalized Forward-Inverse (GFI) framework, building on the assumption of manifolds and latent space translations. 
@@ -89,36 +89,41 @@
     </p>
 
     <h2 class="banded">Method Overview</h2>
-    <p>
-    We propose Generalized Forward-Inverse (GFI) framework based on two assumptions. First, according to the manifold assumption, we assume that the velocity maps v ∈ v&#119985; and seismic
-    waveforms p ∈ p&#119985; can be projected to their corresponding latent space representations, v&#771; and p&#771;, respectively, which can be mapped back to their reconstructions in the original space, v&#770; and p&#770;. 
-    Note that the sizes of the latent spaces can be smaller or larger than the original spaces. Further, the size of v&#771; may not match with the size of p&#771;. Second, according to the latent space
-    translation assumption, we assume that the problem of learning forward and inverse mappings in the original spaces of velocity and waveforms can be reformulated as learning translations in their
-    latent spaces. 
+    <p style="text-align:justify;">
+      We propose Generalized Forward-Inverse (GFI) framework based on two assumptions. First, according to the manifold assumption, we assume that the velocity maps v ∈ v&#119985; and seismic
+      waveforms p ∈ p&#119985; can be projected to their corresponding latent space representations, v&#771; and p&#771;, respectively, which can be mapped back to their reconstructions in the original space, v&#770; and p&#770;. 
+      Note that the sizes of the latent spaces can be smaller or larger than the original spaces. Further, the size of v&#771; may not match with the size of p&#771;. Second, according to the latent space
+      translation assumption, we assume that the problem of learning forward and inverse mappings in the original spaces of velocity and waveforms can be reformulated as learning translations in their
+      latent spaces. 
     </p>
     <ol>
       <li>
-        <b>Latent U-Net Architecture: </b> We propose a novel architecture to solve forward and inverse problems using two latent space translation models implemented using U-Nets, termed Latent U-Net. Latent
-        U-Net uses ConvNet backbones for both encoder-decoder pairs: (<code>E</code><sub>v</sub>, <code>D</code><sub>v</sub>) and (<code>E</code><sub>p</sub>, <code>D</code><sub>p</sub>), to project
-        v and p to lower-dimensional representations. We also constrain the sizes of the latent spaces of
-        v&#771; and p&#771; to be identical, i.e., dim(v&#771;) = dim(p&#771;), so that we can train two separate U-Net models to implement the latent space mappings L<sub>v&#771; &rarr; p&#771;</sub> and L<sub>p&#771; &rarr; v&#771;</sub>.
+        <p style="text-align:justify;">
+          <b>Latent U-Net Architecture: </b> We propose a novel architecture to solve forward and inverse problems using two latent space translation models implemented using U-Nets, termed Latent U-Net. Latent
+          U-Net uses ConvNet backbones for both encoder-decoder pairs: (<code>E</code><sub>v</sub>, <code>D</code><sub>v</sub>) and (<code>E</code><sub>p</sub>, <code>D</code><sub>p</sub>), to project
+          v and p to lower-dimensional representations. We also constrain the sizes of the latent spaces of
+          v&#771; and p&#771; to be identical, i.e., dim(v&#771;) = dim(p&#771;), so that we can train two separate U-Net models to implement the latent space mappings L<sub>v&#771; &rarr; p&#771;</sub> and L<sub>p&#771; &rarr; v&#771;</sub>.
+        </p>
         
         <div class="latent_unet">
           <figure>
-            <img src="./static/images/LatentU-Net.png" alt="Latent U-Net architecture" loading="lazy" width=45%>
+            <img src="./static/images/LatentU-Net.png" alt="Latent U-Net architecture" loading="lazy" width=30%>
             <figcaption> Latent U-Net architecture </figcaption>
           </figure>
         </div>
         
       </li>
       <li>
-        <b>Invertible X-Net Architecture: </b> We propose another novel architecture within the GFI framework termed Invertible X-Net to answer
+        <p style="text-align:justify;">
+          <b>Invertible X-Net Architecture: </b> We propose another novel architecture within the GFI framework termed Invertible X-Net to answer
             the question: “can we learn a single latent space translation model that can simultaneously solve
             both forward and inverse problems?” We employ invertible U-Net in the latent spaces of velocity and waveforms, which can be constrained to be of the same size (just like Latent-UNets), i.e.,
             dim(v&#771;) = dim(p&#771;).
+        </p>
+        
         <div class="inv_xnet">
           <figure>
-            <img src="./static/images/InvertibleX-Net.png" alt="Invertible X-Net architecture" loading="lazy" width=45%>
+            <img src="./static/images/InvertibleX-Net.png" alt="Invertible X-Net architecture" loading="lazy" width=30%>
             <figcaption> Invertible X-Net architecture </figcaption>
           </figure>
         </div>
