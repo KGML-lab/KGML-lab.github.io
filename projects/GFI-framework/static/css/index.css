@@ -106,7 +106,123 @@ line-height: 1.2em;
     Helpers
   ***************/
 
-.centered {
+ .no-border-top {
+    border-top: 0;
+  }
+  .no-border-bottom {
+    border-bottom: 0;
+  }
+  .border-right {
+    border-right: 1px solid black;
+  }
+  .text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+  .centered {
     text-align: center;
   }
+  .full-width {
+    width: max(90vw, 100%);
+    position: relative;
+    left: calc(-45vw + 50%);
+  }
+  .banded {
+    width: 100vw;
+    position: relative;
+    left: calc(-50vw + 50%);
+  
+    padding: 1em;
+    text-align: center;
+    background-color: var(--nice-gray);
+  }
 
+ /***************
+    Figures
+  ***************/
+  
+  
+  .figure-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 4px;
+    row-gap: 4px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .figure-container {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  figure {
+    margin: 0px;
+  }
+  
+  /* Makes <a> behave like it doesn't exist with regards to flexbox */
+  figure > a {
+    display: contents;
+  }
+  figure > a > img,figure > img {
+    width: 100%;
+  }
+  figcaption {
+    text-align: left;
+  }
+  
+  
+  /***************
+    Pill Buttons
+  ***************/
+  
+  
+  .pill-button {
+    padding: 0.5em 1em;
+    border-radius: 9999px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    margin-right: 0.25em;
+    white-space: nowrap;
+  }
+  
+  .pill-button > span {
+    font-size: 1em;
+  }
+  
+  .pill-button > img {
+    height: 1em;
+    display: inline-block;
+    transform:translate(0, 0.125em);
+  }
+  
+  /***************
+    Dropdown
+  ***************/
+  details {
+    margin-top: 6px;
+    display: inline-block;
+    min-width: 16ch;
+    text-align: center;
+    padding: 4px 12px;
+    position: relative;
+  }
+  details:hover {
+    cursor: pointer;
+  }
+  
+  details > div.options {
+    position: absolute;
+    background: white;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    border-radius: 4px;
+  }
+  
+  details > div.options > p {
+    margin: 0;
+    padding: 6px 2px;
+  }
+  details > div.options > p:hover {
+    background-color: var(--nice-gray);
+  }
