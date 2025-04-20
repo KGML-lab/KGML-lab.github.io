@@ -33,8 +33,31 @@ body {
 
 .model_architectures{
   display:flex;
-  justify-content:space-around;
-  align-items:flex-start;
+/*   justify-content:space-around;
+  align-items:flex-start; */
+}
+
+.latent-unet{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+figcaption {
+  margin-top: 8px;   /* Space between image and caption */
+  text-align: center;
+}
+
+.inv_xnet{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
