@@ -137,11 +137,11 @@
   <h2 class="banded"> Experiments </h2>
   <p style="text-align:justify;">
     We consider the OpenFWI collection of datasets, comprising multi-structural benchmark datasets for DL4SI grouped into: Vel, Fault, and Style Families. We compare Latent U-Net and Invertible X-Net on these datasets against several baseline methods for both forward and inverse problems. 
-    For quantitative comparisons, we used Mean Absolute Error (MAE), Mean Square Error (MSE), and Structured Similarity (SSIM) as evaluation metrics since neither metric
-    alone is fully comprehensive. MAE captures pixel-level accuracy while SSIM highlights structural similarity.
     <ol>
 
-      <li> <p><b>Quantitative Comparison</b></p>
+      <li> 
+        <p> <b> Quantitative Comparison: </b> We used Mean Absolute Error (MAE), Mean Square Error (MSE), and Structured Similarity (SSIM) as evaluation metrics since neither metric
+          alone is fully comprehensive. MAE captures pixel-level accuracy while SSIM highlights structural similarity. </p>
         <div style="display: flex; justify-content: space-around; align-items: flex-start;">
          <figure style="margin: 0 10px;">
           <img src="./static/images/Supervised_Inverse_SSIM_flipped.png" alt="supervised_inverse_ssim" loading="lazy" width=30%>
@@ -152,17 +152,31 @@
           <img src="./static/images/Supervised_Forward_SSIM_flipped.png" alt="supervised_forward_ssim" loading="lazy" width=30%>
           <figcaption> (b) Forward problem </figcaption>
         </figure>
-         <figcaption style="margin-top: 10px;">
+        </div>
+        <figcaption style="margin-top: 10px;">
            Figure 4: Comparison of Latent U-Nets (Small and Large), Invertible X-Net, Invertible X-Net (Cycle) with different baseline methods across different OpenFWI datasets.
-         </figcaption>
+        </figcaption>
       </li>
-      <li><p><b>Qualitative Comparison</b></p></li>
-      
-      
+      <li>
+        <p> <b> Qualitative Comparison: </b> We show model prediction on three datasets CVB, CFB, and STA, choosing one from each family of OpenFWI. </p>
+        <div style="display: flex; justify-content: space-around; align-items: flex-start;">
+         <figure style="margin: 0 10px;">
+          <img src="./static/images/qualitative_viz_inverse.png" alt="Qualitative Visualization for Inverse" loading="lazy" width=30%>
+          <figcaption> (a) Inverse problem </figcaption>
+        </figure>
+    
+        <figure style="margin: 0 10px;">
+          <img src="./static/images/qualitative_viz_forward.png" alt="Qualitative Visualization for Forward" loading="lazy" width=30%>
+          <figcaption> (b) Forward problem </figcaption>
+        </figure>
+        </div>
+        <figcaption style="margin-top: 10px;">
+           Figure 5: Visualization of model predictions for inverse and forward problems across different Open-FWI datasets: CVB, CFB, STA.
+        </figcaption>
+      </li>
     </ol>
    
      
-   </div>
     
   
   
