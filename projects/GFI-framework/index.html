@@ -163,6 +163,36 @@
         </figcaption>
       </li>
     </ol>
+
+
+  <h2 class="banded"> Zero-shot Generalization </h2>
+  <p>
+    We show the zero-shot generalizability of our models on the more complex and real-world-like geological settings of Marmousi and Overthrust datasets. We chose models trained on the most complex OpenFWI datasets, i.e., STA
+    (for Marmousi) and STB (for overthrust) datasets, and compared their zero-shot performance in predicting velocity maps (inverse problem). We observe that none of the baselines are able to invert
+    velocity maps at high resolution. However, the predictions of Latent U-Net and Invertible X-Net are still able to delineate the sharp changes in velocity maps especially in the shallow part of the
+    data. On the forward problem, our models are able to accurately predict seismic waveforms for both Marmousi and Overthrust data relative to baselines.
+  </p>
+  <div style="display: flex; justify-content: space-around; align-items: flex-start;">
+     <figure style="margin: 0 10px;">
+      <img src="./static/images/zero-shot_inverse.png" alt="Zero-shot inverse" loading="lazy" width=30%>
+      <figcaption> (a) Inverse problem </figcaption>
+    </figure>
+
+    <figure style="margin: 0 10px;">
+      <img src="./static/images/zero-shot_forward.png" alt="Zero-shot forward" loading="lazy" width=30%>
+      <figcaption> (b) Forward problem </figcaption>
+    </figure>
+  </div>
+  <figcaption style="margin-top: 10px;">
+     Figure 6: Zero-shot generalization (both forward and inverse) on Marmousi and Overthrust datasets using models trained on STA and STB datasets, respectively.
+  </figcaption>
+
+  <h2 class="banded"> Conclusions </h2>
+  <p>
+    In this work, we introduced a unified framework for solving both forward and inverse problems in subsurface imaging, termed the Generalized-Forward-Inverse (GFI) framework.
+    Within this framework, we proposed two novel architectures, Latent U-Net and Invertible X-Net, that leverage the power of U-Nets and IU-Nets to perform latent space translations, respectively.
+    Our study also addresses several key questions left unanswered by prior research in subsurface imaging discussed in the paper. We recommend reading the full paper for details.
+  </p>
    
   <h2 class="banded"> BibTeX </h2>
   <pre class="reference">
