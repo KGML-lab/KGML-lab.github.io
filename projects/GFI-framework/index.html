@@ -90,8 +90,8 @@
     <!-- Method Overview -->
     <h2 class="banded">Method Overview</h2>
     <p style="text-align:justify;">
-      We propose Generalized Forward-Inverse (GFI) framework based on two assumptions. First, according to the manifold assumption, we assume that the velocity maps v ∈ v&#119985; and seismic
-      waveforms p ∈ p&#119985; can be projected to their corresponding latent space representations, v&#771; and p&#771;, respectively, which can be mapped back to their reconstructions in the original space, v&#770; and p&#770;. 
+      We propose Generalized Forward-Inverse (GFI) framework based on two assumptions. First, according to the manifold assumption, we assume that the velocity maps v ∈ &#119985; and seismic
+      waveforms p ∈ &#119979; can be projected to their corresponding latent space representations, v&#771; and p&#771;, respectively, which can be mapped back to their reconstructions in the original space, v&#770; and p&#770;. 
       Note that the sizes of the latent spaces can be smaller or larger than the original spaces. Further, the size of v&#771; may not match with the size of p&#771;. Second, according to the latent space
       translation assumption, we assume that the problem of learning forward and inverse mappings in the original spaces of velocity and waveforms can be reformulated as learning translations in their
       latent spaces. 
@@ -108,23 +108,26 @@
         <div class="latent_unet">
           <figure>
             <img src="./static/images/LatentU-Net.png" alt="Latent U-Net architecture" loading="lazy" width=30%>
-            <figcaption> Latent U-Net architecture </figcaption>
+            <figcaption> Figure 2: Latent U-Net architecture </figcaption>
           </figure>
         </div>
         
       </li>
       <li>
         <p style="text-align:justify;">
-          <b>Invertible X-Net Architecture: </b> We propose another novel architecture within the GFI framework termed Invertible X-Net to answer
-            the question: “can we learn a single latent space translation model that can simultaneously solve
-            both forward and inverse problems?” We employ invertible U-Net in the latent spaces of velocity and waveforms, which can be constrained to be of the same size (just like Latent-UNets), i.e.,
-            dim(v&#771;) = dim(p&#771;).
+          <b>Invertible X-Net Architecture: </b> We propose another novel architecture within the GFI framework termed Invertible X-Net to simultaneously solve both forward and inverse problems. The Invertible X-Net architecture employ invertible U-Net (IU-Net) in the latent spaces of velocity and waveforms to learn bijective translation.  The architecture also offers several
+            key advantages over baselines. First, it simultaneously addresses both the forward and inverse problems within a single model architecture, whereas other baselines typically require training separate
+            models for each task (e.g., Latent U-Net and Auto-Linear), leading to greater parameter efficiency. Second, the use of IU-Net ensures that the mappings between the latent spaces of velocity maps
+            and seismic waveforms are bijective, guaranteeing a one-to-one mapping between these representations – a property not necessarily true for other models such as Latent U-nets and Auto-Linear. Third, the bi-directional training of the forward and inverse problems introduces a strong regularization effect  as the gradients of the forward and inverse loss affects affects the parameters of f<sub>IU-Net</sub>, thereby
+            affecting both forward and inverse performance.
+            And fourth, the architecture can be trained with unpaired examples using cycle-loss consistency. We consider both variants of Invertible X-Net (with and without cycle loss) in our experiments to
+            demonstrate its effect on generalization performance.
         </p>
         
         <div class="inv_xnet">
           <figure>
             <img src="./static/images/InvertibleX-Net.png" alt="Invertible X-Net architecture" loading="lazy" width=30%>
-            <figcaption> Invertible X-Net architecture </figcaption>
+            <figcaption> Figure 3: Invertible X-Net architecture </figcaption>
           </figure>
         </div>
       </li>
@@ -132,6 +135,36 @@
   
   <!-- Experiments -->
   <h2 class="banded"> Experiments </h2>
+  <p style="text-align:justify;">
+    We consider the OpenFWI collection of datasets, comprising multi-structural benchmark datasets for DL4SI grouped into: Vel, Fault, and Style Families. We compare Latent U-Net and Invertible X-Net on these datasets against several baseline methods for both forward and inverse problems. 
+    For quantitative comparisons, we used Mean Absolute Error (MAE), Mean Square Error (MSE), and Structured Similarity (SSIM) as evaluation metrics since neither metric
+    alone is fully comprehensive. MAE captures pixel-level accuracy while SSIM highlights structural similarity.
+    <ol>
+
+      <li> <p><b>Quantitative Comparison</b></p>
+        <div style="display: flex; justify-content: space-around; align-items: flex-start;">
+         <figure style="margin: 0 10px;">
+          <img src="./static/images/Supervised_Inverse_SSIM_flipped.png" alt="supervised_inverse_ssim" loading="lazy" width=30%>
+          <figcaption> (a) Inverse problem </figcaption>
+        </figure>
+    
+        <figure style="margin: 0 10px;">
+          <img src="./static/images/Supervised_Forward_SSIM_flipped.png" alt="supervised_forward_ssim" loading="lazy" width=30%>
+          <figcaption> (b) Forward problem </figcaption>
+        </figure>
+         <figcaption style="margin-top: 10px;">
+           Figure 4: Comparison of Latent U-Nets (Small and Large), Invertible X-Net, Invertible X-Net (Cycle) with different baseline methods across different OpenFWI datasets.
+         </figcaption>
+      </li>
+      <li><p><b>Qualitative Comparison</b></p></li>
+      
+      
+    </ol>
+   
+     
+   </div>
+    
+  
   
   
   <!-- BibTeX -->
