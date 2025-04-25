@@ -1,0 +1,1 @@
+- **[Fish-Vista]([https://arxiv.org/abs/your_link_here](https://huggingface.co/datasets/imageomics/fish-vista))** – A benchmark dataset for identifying biological traits from images. *Accepted at [CVPR 2025](https://cvpr.thecvf.com/).*
