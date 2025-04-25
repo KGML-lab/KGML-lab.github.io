@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Lake-GPT project recieves the National Artificial Intelligence Research Resource (NAIRR) Pilot award. [Read more](https://news.vt.edu/articles/2024/06/three-virginia-tech-faculty-receive-nairr-pilot-awards-for-proje.html)
+🏆 Lake-GPT project recieves the National Artificial Intelligence Research Resource **[(NAIRR)](https://www.nsf.gov/focus-areas/artificial-intelligence/nairr)** Pilot award. [Read more](https://news.vt.edu/articles/2024/06/three-virginia-tech-faculty-receive-nairr-pilot-awards-for-proje.html) !
