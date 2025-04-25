@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-[Phylo-Diffusion](https://imageomics.github.io/phylo-diffusion/) is accepted at ECCV 2024
+🎉 [Phylo-Diffusion](https://imageomics.github.io/phylo-diffusion/) is accepted at **[ECCV 2024](https://eccv.ecva.net/Conferences/2024)** !
