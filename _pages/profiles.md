@@ -162,31 +162,6 @@ profiles:
 
   - align: left
     type: student
-    name: Aanish Pradhan
-    degree: Masters Student
-    image: sample_img.jpg
-    content: about/about_sepideh.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%;">
-        <p style="margin: 0;">
-          <a href="mailto:aanishp01@vt.edu" style="text-decoration: none; color: #D44638; margin: 0 10px;">
-            <i class="fas fa-envelope" style="font-size: 24px;"></i>
-          </a>
-          <a href="https://aanish-pradhan.github.io" style="text-decoration: none; color: #0a7cdb; margin: 0 10px;">
-            <i class="fas fa-globe" style="font-size: 24px;"></i>
-          </a>
-                    <a href="https://www.linkedin.com/in/aanishpradhan" style="text-decoration: none; color: #0077b5; margin: 0 10px;">
-            <i class="fab fa-linkedin" style="font-size: 24px;"></i>
-          </a>
-          <a href="https://twitter.com/yourprofile" style="text-decoration: none; color: #1DA1F2; margin: 0 10px;">
-            <i class="fab fa-twitter-square" style="font-size: 24px;"></i>
-          </a>
-        </p>
-      </div>
-
-  - align: left
-    type: student
     name: Blessy Antony
     degree: PhD Student (Co-advised by Anuj Karpatne and T. Murali)
     image: BlessyAntony_upd.jpg
@@ -214,7 +189,7 @@ profiles:
   - align: left
     type: alumni
     name: Jie Bu
-    degree: PhD, May, 2023
+    degree: PhD, 2023
     now: Machine Learning Engineer, Apple
     image: Jie_upd.jpg
     content: about/about_sepideh.md
@@ -240,7 +215,7 @@ profiles:
   - align: left
     type: alumni
     name: Mohannad Elhamod
-    degree: PhD, May, 2023
+    degree: PhD, 2023
     now: Clinical Assistant Professor, Boston University
     image: Moe.png
     content: about/about_sepideh.md
@@ -263,10 +238,36 @@ profiles:
         </p>
       </div>
 
+    - align: left
+    type: alumni
+    name: Naveen Gupta
+    degree: Masters, 2023
+    now: ML Engineer @ SLB
+    image: NaveenGupta_pic_upd.jpg
+    content: about/about_sepideh.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%;">
+        <p style="margin: 0;">
+          <a href="mailto:naveengupta@vt.edu" style="text-decoration: none; color: #D44638; margin: 0 10px;">
+            <i class="fas fa-envelope" style="font-size: 24px;"></i>
+          </a>
+        <!--   <a href="https://wordpress.cs.vt.edu/elhamod/" style="text-decoration: none; color: #0a7cdb; margin: 0 10px;">
+            <i class="fas fa-globe" style="font-size: 24px;"></i>
+          </a> -->
+                    <a href="https://www.linkedin.com/in/naveengupta1729" style="text-decoration: none; color: #0077b5; margin: 0 10px;">
+            <i class="fab fa-linkedin" style="font-size: 24px;"></i>
+          </a>
+         <!--  <a href="https://twitter.com/ElhamodMohannad" style="text-decoration: none; color: #1DA1F2; margin: 0 10px;">
+            <i class="fab fa-twitter-square" style="font-size: 24px;"></i>
+          </a> -->
+        </p>
+      </div>
+
   - align: left
     type: alumni
     name: Arka Daw
-    degree: PhD, December, 2023
+    degree: PhD, 2023
     now: Applied Scientist AGI, Amazon
     image: Arka_pic-upd.jpg
     content: about/about_sepideh.md
@@ -294,7 +295,7 @@ profiles:
     type: alumni
     name: M Maruf
     image: maruf_upd.jpg
-    degree: PhD, December, 2024
+    degree: PhD, 2024
     now: Applied Scientist AGI, Amazon
     content: about/about_sepideh.md
     image_circular: false # crops the image to make it circular
@@ -317,36 +318,11 @@ profiles:
         </p>
       </div>
 
-  - align: left
-    type: alumni
-    name: Naveen Gupta
-    degree: Masters, May, 2023
-    now: ML Engineer @ SLB
-    image: NaveenGupta_pic_upd.jpg
-    content: about/about_sepideh.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%;">
-        <p style="margin: 0;">
-          <a href="mailto:naveengupta@vt.edu" style="text-decoration: none; color: #D44638; margin: 0 10px;">
-            <i class="fas fa-envelope" style="font-size: 24px;"></i>
-          </a>
-        <!--   <a href="https://wordpress.cs.vt.edu/elhamod/" style="text-decoration: none; color: #0a7cdb; margin: 0 10px;">
-            <i class="fas fa-globe" style="font-size: 24px;"></i>
-          </a> -->
-                    <a href="https://www.linkedin.com/in/naveengupta1729" style="text-decoration: none; color: #0077b5; margin: 0 10px;">
-            <i class="fab fa-linkedin" style="font-size: 24px;"></i>
-          </a>
-         <!--  <a href="https://twitter.com/ElhamodMohannad" style="text-decoration: none; color: #1DA1F2; margin: 0 10px;">
-            <i class="fab fa-twitter-square" style="font-size: 24px;"></i>
-          </a> -->
-        </p>
-      </div>
       
   - align: left
     type: alumni
     name: Harishbabu Manogaran
-    degree: Masters, October, 2024
+    degree: Masters, 2024
     now: ML Engineer
     image: Harish-Babu-Manogaran.jpg
     content: about/about_sepideh.md
@@ -361,6 +337,31 @@ profiles:
             <i class="fas fa-globe" style="font-size: 24px;"></i>
           </a>
                     <a href="https://www.linkedin.com/in/harish-babu-m/" style="text-decoration: none; color: #0077b5; margin: 0 10px;">
+            <i class="fab fa-linkedin" style="font-size: 24px;"></i>
+          </a>
+          <a href="https://twitter.com/yourprofile" style="text-decoration: none; color: #1DA1F2; margin: 0 10px;">
+            <i class="fab fa-twitter-square" style="font-size: 24px;"></i>
+          </a>
+        </p>
+      </div>
+
+  - align: left
+    type: alumni
+    name: Aanish Pradhan
+    degree: Masters, 2025
+    image: sample_img.jpg
+    content: about/about_sepideh.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%;">
+        <p style="margin: 0;">
+          <a href="mailto:aanishp01@vt.edu" style="text-decoration: none; color: #D44638; margin: 0 10px;">
+            <i class="fas fa-envelope" style="font-size: 24px;"></i>
+          </a>
+          <a href="https://aanish-pradhan.github.io" style="text-decoration: none; color: #0a7cdb; margin: 0 10px;">
+            <i class="fas fa-globe" style="font-size: 24px;"></i>
+          </a>
+                    <a href="https://www.linkedin.com/in/aanishpradhan" style="text-decoration: none; color: #0077b5; margin: 0 10px;">
             <i class="fab fa-linkedin" style="font-size: 24px;"></i>
           </a>
           <a href="https://twitter.com/yourprofile" style="text-decoration: none; color: #1DA1F2; margin: 0 10px;">
