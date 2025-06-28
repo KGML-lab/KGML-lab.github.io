@@ -113,7 +113,7 @@ profiles:
   - align: left
     type: student
     name: Amartya Dutta
-    degree: PhD Student (Co-advised by Anuj Karpatne and T. Murali)
+    degree: PhD Student (Co-advised by T. Murali)
     image: Amartya-Dutta_upd.png
     content: about/about_sepideh.md
     image_circular: false # crops the image to make it circular
@@ -163,7 +163,7 @@ profiles:
   - align: left
     type: student
     name: Blessy Antony
-    degree: PhD Student (Co-advised by Anuj Karpatne and T. Murali)
+    degree: PhD Student (Co-advised by Anuj Karpatne)
     image: BlessyAntony_upd.jpg
     content: about/about_sepideh.md
     image_circular: false # crops the image to make it circular
@@ -190,7 +190,7 @@ profiles:
     type: alumni
     name: Jie Bu
     degree: PhD, 2023
-    now: Machine Learning Engineer, Apple
+    now: MLE, Apple
     image: Jie_upd.jpg
     content: about/about_sepideh.md
     image_circular: false # crops the image to make it circular
@@ -238,11 +238,11 @@ profiles:
         </p>
       </div>
 
-    - align: left
+  - align: left
     type: alumni
     name: Naveen Gupta
-    degree: Masters, 2023
-    now: ML Engineer @ SLB
+    degree: MS, 2023
+    now: MLE, SLB
     image: NaveenGupta_pic_upd.jpg
     content: about/about_sepideh.md
     image_circular: false # crops the image to make it circular
@@ -268,7 +268,7 @@ profiles:
     type: alumni
     name: Arka Daw
     degree: PhD, 2023
-    now: Applied Scientist AGI, Amazon
+    now: Applied Scientist, Amazon
     image: Arka_pic-upd.jpg
     content: about/about_sepideh.md
     image_circular: false # crops the image to make it circular
@@ -296,7 +296,7 @@ profiles:
     name: M Maruf
     image: maruf_upd.jpg
     degree: PhD, 2024
-    now: Applied Scientist AGI, Amazon
+    now: Applied Scientist, Amazon
     content: about/about_sepideh.md
     image_circular: false # crops the image to make it circular
     more_info: >
@@ -322,7 +322,7 @@ profiles:
   - align: left
     type: alumni
     name: Harishbabu Manogaran
-    degree: Masters, 2024
+    degree: MS, 2024
     now: ML Engineer
     image: Harish-Babu-Manogaran.jpg
     content: about/about_sepideh.md
@@ -348,7 +348,7 @@ profiles:
   - align: left
     type: alumni
     name: Aanish Pradhan
-    degree: Masters, 2025
+    degree: MS, 2025
     image: sample_img.jpg
     content: about/about_sepideh.md
     image_circular: false # crops the image to make it circular
