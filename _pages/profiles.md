@@ -124,7 +124,7 @@ profiles:
           <a href="mailto:snehals.more@gmail.com" style="text-decoration: none; color: #D44638; margin: 0 10px;">
             <i class="fas fa-envelope" style="font-size: 24px;"></i>
           </a>
-          <a href="https://snehalmore.github.io/" style="text-decoration: none; color: #0a7cdb; margin: 0 10px;">
+          <a href="https://www.linkedin.com/in/snehal-more/" style="text-decoration: none; color: #0a7cdb; margin: 0 10px;">
             <i class="fas fa-globe" style="font-size: 24px;"></i>
           </a>
             <a href="https://www.linkedin.com/in/snehal-more/" style="text-decoration: none; color: #0077b5; margin: 0 10px;">
