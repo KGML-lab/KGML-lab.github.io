@@ -109,7 +109,35 @@ profiles:
           </a>
         </p>
       </div>
-      
+
+
+  - align: left
+    type: student
+    name: Snehal More
+    image: SnehalMore.jpg
+    degree: PhD Candidate (Co-advised by Randolph H Wynne)
+    content: about/about_snehal.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%;">
+        <p style="margin: 0;">
+          <a href="mailto:snehals.more@gmail.com" style="text-decoration: none; color: #D44638; margin: 0 10px;">
+            <i class="fas fa-envelope" style="font-size: 24px;"></i>
+          </a>
+          <a href="https://snehalmore.github.io/" style="text-decoration: none; color: #0a7cdb; margin: 0 10px;">
+            <i class="fas fa-globe" style="font-size: 24px;"></i>
+          </a>
+            <a href="https://www.linkedin.com/in/snehal-more/" style="text-decoration: none; color: #0077b5; margin: 0 10px;">
+            <i class="fab fa-linkedin" style="font-size: 24px;"></i>
+          </a>
+          <a href="https://twitter.com/snehal_sm" style="text-decoration: none; color: #1DA1F2; margin: 0 10px;">
+            <i class="fab fa-twitter-square" style="font-size: 24px;"></i>
+          </a>
+        </p>
+      </div>
+
+  
+  
   - align: left
     type: student
     name: Amartya Dutta
